@@ -1,18 +1,35 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
-import Header from './components/Header'
+
+
+import './App.css';
+
+
+function Top(){
+  return(
+      <li>
+          <h3></h3>
+          <h3></h3>
+          <h3></h3>
+          
+          
+      </li>
+  )
+  }
 
 function App() {
-
-  return (
-  <div>
-    <main>
-    <Header/>
-    </main>
-  </div>
-  )
+	return (
+		<div>
+			<section id='nav'>
+				<main>
+					<Top 
+            
+          />
+				</main>
+			</section>
+		</div>
+	);
 }
 
-export default App
+export default App;
