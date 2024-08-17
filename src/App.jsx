@@ -6,10 +6,10 @@
 import './App.css';
 
 
-function Top(){
+function Top(){	    //PROPS
   return(
       <li>
-          <h3></h3>
+          <h3></h3> //NAV
           <h3></h3>
           <h3></h3>
           
