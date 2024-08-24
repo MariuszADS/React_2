@@ -4,24 +4,32 @@
 
 import './App.css';
 import oslo from '../src/assets/img/72 hours in Oslo, Norway.jfif';
+// import { DATA_FROM } from './data_with';
 
-function Top() {
+function Button_nav({ children }) {
+	return <button>{children}</button>;
+}
+
+function BackGround() {
 	return (
-		<li id='list'>
-			<h3>Miejsca wartę uwagi</h3>
-			<h3>Wskazówki i porady</h3>
-			<h3>Ruter #</h3>
-			<h3>Kontakt</h3>
-			<h3 id='black'>English  or </h3>
-		</li>
+		<div id='Welcome_web_page'>
+			<img src={oslo} />
+		</div>
 	);
 }
 
 function App() {
 	return (
 		<div>
+			<BackGround />
 			<section id='nav'>
-				<Top />
+				<li id='list'>
+					<Button_nav>Miejsca wartę uwagi</Button_nav>
+					<Button_nav>Wskazówki i porady</Button_nav>
+					<Button_nav>Ruter #</Button_nav>
+					<Button_nav>Kontakt</Button_nav>
+					<Button_nav id='black'>English or </Button_nav>
+				</li>
 			</section>
 		</div>
 	);
