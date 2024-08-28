@@ -9,6 +9,10 @@
 	background-image: url('./assets/img/72\ hours\ in\ Oslo\,\ Norway.jfif');
 }
 
+#shadow{
+	background-color: rgba(13, 13, 13, 0.8);
+}
+
 
 #nav {
 	display: flex;
@@ -17,7 +21,7 @@
 	top: 3rem;
 	left: 0;
 	width: 100%;
-	height: auto;
+	height: 3rem;
 	background-color: rgb(255, 136, 0);
 	/* border: 3px solid black; */
 }
@@ -25,7 +29,7 @@
 #list{
 	list-style: none;
 	width: 190rem;
-	height: 7.2rem;
+	/* height: 3.2rem; */
 	list-style-type: none;
 	display: flex;
 	justify-content: flex-start;
