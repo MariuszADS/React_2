@@ -1,17 +1,8 @@
 #root {
 	max-width: 1920px;
-	/* margin: 0; */
-	/* padding: 2rem; */
-	/* text-align: center; */
+	
 }
 
-#Welcome_web_page{
-	background-image: url('./assets/img/72\ hours\ in\ Oslo\,\ Norway.jfif');
-}
-
-#shadow{
-	background-color: rgba(13, 13, 13, 0.8);
-}
 
 
 #nav {
@@ -23,13 +14,13 @@
 	width: 100%;
 	height: 3rem;
 	background-color: rgb(255, 136, 0);
-	/* border: 3px solid black; */
+	
 }
 
 #list{
 	list-style: none;
-	width: 190rem;
-	/* height: 3.2rem; */
+	width: 100%;
+	height: auto;
 	list-style-type: none;
 	display: flex;
 	justify-content: flex-start;
@@ -49,12 +40,9 @@
 	
 }
 
-#list #black{
-	color: black;
-}
 
 
 #Welcome_web_page img{
 	width: 100%;
 	height: auto;
-	}
+}
