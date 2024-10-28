@@ -1,29 +1,26 @@
-
-import BackGround from './BackGround/BackGround' 
+import BackGround from './Components/BackGround';
 import './App.css';
+import { NavItem } from './Components/NavItem';
+import BigLogo from './Components/BigLogo';
 
-
-function Button_nav({ children }) {
-	return <button>{children}</button>;
-}
 
 
 function App() {
 	return (
 		<div>
+			<BigLogo/>
 			<BackGround />
-
 			<section id='nav'>
 				<li id='list'>
-					<Button_nav>Miejsca wartę uwagi</Button_nav>
-					<Button_nav>Wskazówki i porady</Button_nav>
-					<Button_nav>Ruter #</Button_nav>
-					<Button_nav>Kontakt</Button_nav>
-					<Button_nav>English or </Button_nav>
+					<NavItem><h4>Miejsca wartę uwagi</h4></NavItem>
+					<NavItem><h4>Wskazówki i porady</h4></NavItem>
+					<NavItem><h4>Ruter #</h4></NavItem>
+					<NavItem><h4>Kontakt</h4></NavItem>
 				</li>
 			</section>
 		</div>
 	);
 }
+
 
 export default App;
