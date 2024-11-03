@@ -8,15 +8,18 @@ import BigLogo from './Components/BigLogo';
 function App() {
 	return (
 		<div>
-			<BigLogo/>
 			<BackGround />
 			<section id='nav'>
 				<li id='list'>
-					<NavItem><h4>Miejsca wartę uwagi</h4></NavItem>
-					<NavItem><h4>Wskazówki i porady</h4></NavItem>
-					<NavItem><h4>Ruter #</h4></NavItem>
-					<NavItem><h4>Kontakt</h4></NavItem>
+					<NavItem>Miejsca wartę uwagi</NavItem>
+					<NavItem>Wskazówki i porady</NavItem>
+					<NavItem>Ruter #</NavItem>
+					<NavItem>Kontakt</NavItem>
 				</li>
+			</section>
+			<section>
+			<BigLogo/>
+			
 			</section>
 		</div>
 	);
