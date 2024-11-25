@@ -4,10 +4,9 @@ import oslo from '../assets/img/72 hours in Oslo, Norway.jfif';
 
 export default function BackGround() {
 	return (
-		<div id='Welcome_web_page'>
-			<div id='gray_background'>
-				<img src={oslo} />
-			</div>
+		<div id='BackGround'>
+			<img src={oslo} />
+			<div className='BackGround_grey' />
 		</div>
 	);
 }

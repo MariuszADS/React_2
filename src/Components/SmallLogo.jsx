@@ -11,4 +11,4 @@ const SmallLogo = () => {
 	);
 };
 
-export default SmallLogo
+export default SmallLogo;

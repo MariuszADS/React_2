@@ -7,25 +7,28 @@
 	font-family: 'Baloo_Chettan_2';
 	src: url('./assets/Baloo_Chettan_2/BalooChettan2-VariableFont_wght.ttf');
 }
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
 #root {
 	max-width: 1920px;
 }
-
 #nav {
 	display: flex;
 	position: fixed;
 	justify-content: center;
-	top: 5rem;
+	top: 4rem;
 	left: 0;
 	width: 100%;
 	height: 3rem;
 	background-color: #ff8800;
 }
-/* list */
 #list {
 	width: auto;
-    display: inline-block;
+	display: inline-block;
 	list-style: none;
 	width: 100%;
 	height: auto;
@@ -33,63 +36,80 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	
 }
-
-/* #list h4{
-	font-size: 1.2rem;
-	font-family:Baloo_Chettan_2;
-} */
-
-/* list button */
 #list button {
 	border: none;
-	/* border: 1px black solid; */
 	border-radius: 8px;
 	background: none;
 	cursor: pointer;
 	width: auto;
-	/* display: inline-block; */
 	margin: 0.7rem;
 	padding: 0.5rem;
 	color: white;
 	font-size: 1rem;
 	font-weight: bold;
 }
-
-#Welcome_web_page img {
+#BackGround img {
+	position: fixed;
+	width: 100%;
+	height: auto;
+}
+.BackGround_grey {
+	position: absolute;
+	background-color: #000000;
+	opacity: 70%;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: 40%;
-	/* overflow: hidden; */
 }
-
-#gray_background {
-	background-color: black;
-}
-
-.BigLogo {
-	position: absolute;
-	top: 36%;
+.bgc_logo {
+	position: absolute; /* lub fixed, jeśli ma być względem całego okna */
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	display: flex;
-	font-size: 2.5rem;
-	z-index: 100;
+}
+.bgc_logo_par {
+	color: #ffffffc5;
+	text-align: center;
+	margin: 1.2em;
+	font-size: 16px;
+	font-family: 'Inter';
+	src: url('./assets/Inter/Inter-VariableFont_opsz,wght.ttf');
+
 }
 
-.logo_part_oslo , .logo_part_nabo{
+.ActionButton {
+	position: absolute; /* lub fixed, jeśli ma być względem całego okna */
+	top: 130%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 8em;
+	height: 2em;
+	background-color: #ffffff40;
+	border: #ff8800 3px solid;
+	border-radius: 6rem;
+	font-family: 'Baloo_Chettan_2';
+	src: url('./assets/Baloo_Chettan_2/BalooChettan2-VariableFont_wght.ttf');
+	font-weight: 800;
+	color: white;
+	/* opacity: 70%; */
+	font-size: 27px;
+	cursor: pointer;
+}
+
+.logo_part_oslo,
+.logo_part_nabo {
 	font-size: 5rem;
 	font-weight: 600;
 	color: white;
 	font-family: Inter;
 }
-
 .logo_part_ampersand {
 	margin-left: 10px;
 	margin-right: 10px;
 	font-size: 5rem;
-	color: #FF8800;
+	color: #ff8800;
 	font-family: Inter;
 }
 
