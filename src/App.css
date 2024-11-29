@@ -26,6 +26,31 @@
 	height: 3rem;
 	background-color: #ff8800;
 }
+
+.Navbar{
+	display: flex;
+	/* justify-content: space-between; */
+	/* margin: 0 0 0 4rem; */
+}
+.Navbar a{
+	font-family: 'Baloo_Chettan_2';
+	src: url('./assets/Baloo_Chettan_2/BalooChettan2-VariableFont_wght.ttf');
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin: 0 0 0 3rem;
+	color: white;
+	text-decoration: none;
+}
+
+/* .Wskazowki_porady,.Kontakt,.Miejsca_warte_uwagi{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 5rem;
+	transform: translate(-50%,-50%);
+} */
+
+
 #list {
 	width: auto;
 	display: inline-block;

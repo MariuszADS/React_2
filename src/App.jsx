@@ -1,8 +1,9 @@
 import BackGround from './Components/BackGround';
 import './App.css';
-import { NavItem } from './Components/NavItem';
+// import { NavItem } from './Components/NavItem';
 import BigLogo from './Components/BigLogo';
 import ActionButton from './Components/ActionButton';
+import Navbar from './Components/Navbar';
 
 function App() {
 	return (
@@ -21,10 +22,8 @@ function App() {
 
 			<section id='nav'>
 				<li id='list'>
-					<NavItem>Miejsca wartę uwagi</NavItem>
-					<NavItem>Wskazówki i porady</NavItem>
-					<NavItem>Ruter #</NavItem>
-					<NavItem>Kontakt</NavItem>
+				<Navbar id=''/> 
+					
 				</li>
 			</section>
 		</div>
