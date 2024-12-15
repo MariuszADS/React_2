@@ -3,7 +3,7 @@ export default function Footer() {
 		<div className='footer'>
 			<div className='footer_container_data'>
 				<div className='categories'>
-					{/* <span className='categories_span'>Kategorie</span> */}
+					
 					<div className='categories_column_rules'>
 						<ul>
 							<li>O mnie</li>
@@ -11,9 +11,9 @@ export default function Footer() {
 						</ul>
 					</div>
 				</div>
-
+                {/* dodać linki do li */}
 				<div className='navigation'>
-					{/* <span className='navigation_span'>Nawigacja</span> */}
+					
 					<div className='navigation_column'>
 						<ul>
 							<li>Wskazówki i porady</li>
@@ -26,6 +26,7 @@ export default function Footer() {
 
 				<div className='resources'>
 					<div className='resources_spans'>
+                    {/* dodać linki do github i linkedin */}
 						<img className='resources_github' />
 						<img className='resources_linkedin' />
 						<br />
