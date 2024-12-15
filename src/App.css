@@ -11,6 +11,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-size: 16px;
 }
 
 #root {
@@ -27,12 +28,12 @@
 	background-color: #ff8800;
 }
 
-.Navbar{
+.Navbar {
 	display: flex;
 	/* justify-content: space-between; */
 	/* margin: 0 0 0 4rem; */
 }
-.Navbar a{
+.Navbar a {
 	font-family: 'Baloo_Chettan_2';
 	src: url('./assets/Baloo_Chettan_2/BalooChettan2-VariableFont_wght.ttf');
 	font-size: 1.3rem;
@@ -50,7 +51,6 @@
 	transform: translate(-50%,-50%);
 } */
 
-
 #list {
 	width: auto;
 	display: inline-block;
@@ -64,7 +64,7 @@
 }
 #list button {
 	border: none;
-	border-radius: 8px;
+	border-radius: 0.4em;
 	background: none;
 	cursor: pointer;
 	width: auto;
@@ -101,7 +101,6 @@
 	font-size: 16px;
 	font-family: 'Inter';
 	src: url('./assets/Inter/Inter-VariableFont_opsz,wght.ttf');
-
 }
 
 .ActionButton {
@@ -137,6 +136,44 @@
 	color: #ff8800;
 	font-family: Inter;
 }
+
+.footer {
+	background-color: rgb(0, 0, 0, 0.4);
+	position: relative;
+	top: 49.45rem;
+	border-top: white solid 0.15rem;
+}
+
+.footer_container_data {
+	height: 8rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1rem;
+	color: white;
+	font-family: 'Inter';
+	src: url('./assets/Inter/Inter-VariableFont_opsz,wght.ttf');
+}
+
+.resources{
+	justify-content: left;
+}
+
+.resources_linkedin {
+	background-image: url('./assets/img/Linkedin.png');
+	width: 4rem;
+	height: 4rem;
+	background-repeat: no-repeat;
+}
+
+.resources_github {
+	background-image: url('./assets/img/Github.png');
+
+	width: 4rem;
+	height: 4rem;
+	background-repeat: no-repeat;
+}
+
 
 @media (max-width: 786px) {
 	#Welcome_web_page img {
