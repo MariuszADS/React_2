@@ -1,9 +1,10 @@
 import BackGround from './Components/BackGround';
 import './App.css';
 import BigLogo from './Components/BigLogo';
-import ActionButton from './Components/ActionButton';
-import Navbar from './Components/Navbar';
+// import ActionButton from './Components/ActionButton';
+// import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import NavbarFront from './Components/Navbar';
 
 function App() {
 	return (
@@ -17,12 +18,12 @@ function App() {
 					<br /> aplikacji Ruter # dla nowo odwiedzających rejon
 					<br /> Oslo Kommune
 				</p>
-				<ActionButton>Eksploruj</ActionButton>
+				{/* <ActionButton>Eksploruj</ActionButton> */}
 			</section>
 
 			<section id='nav'>
 				<li id='list'>
-					<Navbar/>
+					<NavbarFront/>
 				</li>
 			</section>
 			<Footer/>

@@ -3,7 +3,6 @@ export default function Footer() {
 		<div className='footer'>
 			<div className='footer_container_data'>
 				<div className='categories'>
-					
 					<div className='categories_column_rules'>
 						<ul>
 							<li>O mnie</li>
@@ -11,9 +10,8 @@ export default function Footer() {
 						</ul>
 					</div>
 				</div>
-                {/* dodać linki do li */}
+				{/* dodać linki do li */}
 				<div className='navigation'>
-					
 					<div className='navigation_column'>
 						<ul>
 							<li>Wskazówki i porady</li>
@@ -24,16 +22,12 @@ export default function Footer() {
 					</div>
 				</div>
 
-				<div className='resources'>
-					<div className='resources_spans'>
-                    {/* dodać linki do github i linkedin */}
-						<img className='resources_github' />
-						<img className='resources_linkedin' />
-						<br />
-						<span className='resources_email'>
-							Email: kacperbak00@gmail.com
-						</span>
-					</div>
+				<div className='resources_spans'>
+					{/* dodać linki do github i linkedin */}
+					<img className='resources_github' />
+					<img className='resources_linkedin' />
+					<br />
+					<span className='resources_email'>Email: kacperbak00@gmail.com</span>
 				</div>
 			</div>
 		</div>
