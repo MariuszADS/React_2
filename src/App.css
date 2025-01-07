@@ -17,12 +17,12 @@
 #root {
 	max-width: 1920px;
 }
-#nav {
+.nav {
 	display: flex;
 	position: fixed;
 	justify-content: center;
 	top: 4rem;
-	left: 0;
+	/* left: 0; */
 	width: 100%;
 	height: 3rem;
 	background-color: #ff8800;
@@ -39,7 +39,7 @@
 	font-size: 1.3rem;
 	font-weight: 700;
 	margin: 0 0 0 3rem;
-	color: white;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
 
@@ -52,14 +52,14 @@
 } */
 
 #list {
-	width: auto;
+	/* width: auto; */
 	display: inline-block;
 	list-style: none;
-	width: 100%;
+	/* width: 100%; */
 	height: auto;
 	list-style-type: none;
 	display: flex;
-	justify-content: flex-start;
+	/* justify-content: flex-start; */
 	align-items: center;
 }
 #list button {
@@ -156,25 +156,79 @@
 	src: url('./assets/Inter/Inter-VariableFont_opsz,wght.ttf');
 }
 
+.resources_spans {
+	display: flex;
+	align-items: center;
+}
 
 .resources_linkedin {
 	background-image: url('./assets/img/Linkedin.png');
 	padding: 2em;
-	margin: 0em .5em 0em 0em;
-	width: 4rem;
-	height: 4rem;
 	background-repeat: no-repeat;
+	transform: scale(0.9);
 }
 
 .resources_github {
 	background-image: url('./assets/img/Github.png');
 	padding: 2em;
-	margin: 0em 1em 0em 0em;
-	width: 4rem;
-	height: 4rem;
 	background-repeat: no-repeat;
+	transform: scale(0.9);
 }
 
+.linear-gradient {
+	background: linear-gradient(rgb(11, 3, 3), rgb(215, 104, 3));
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+}
+
+.logo {
+	position: fixed;
+	display: flex;
+	transform: scale(0.5);
+}
+.s_oslo,
+.s_nabo {
+	font-size: 5rem;
+	font-weight: 600;
+	color: white;
+	font-family: Inter;
+}
+.s_ampersand {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 5rem;
+	color: #ff8800;
+	font-family: Inter;
+}
+
+.flex-container{
+	position: fixed;
+	top: 5rem;
+	left: 75rem;
+	justify-content: center;
+	/* padding: 1rem; */
+
+}
+.Navbar_white {
+	font-family: 'Inter';
+	src: url('./assets/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf');
+	/* src: url('./asse/ts/Baloo_Chettan_2/BalooChettan2-VariableFont_wght.ttf'); */
+	display: flex;
+	
+	/* top: 4rem; */
+	/* width: 40%; */
+	/* height: 3rem; */
+	/* background-color: #ff8800; */
+	/* color: wheat; */
+	/* text-decoration: none; */
+}
+.Navbar_white a{
+	font-size: 1.2em;
+	color: white;
+	padding: .5rem;
+	text-decoration: none;
+}
 
 @media (max-width: 786px) {
 	#Welcome_web_page img {

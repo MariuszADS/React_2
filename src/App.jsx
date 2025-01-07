@@ -21,11 +21,9 @@ function App() {
 				{/* <ActionButton>Eksploruj</ActionButton> */}
 			</section>
 
-			<section id='nav'>
-				<li id='list'>
+			{/* <section id='nav'> */}
 					<NavbarFront/>
-				</li>
-			</section>
+			{/* </section> */}
 			<Footer/>
 		</div>
 	);
