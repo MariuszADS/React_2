@@ -17,6 +17,7 @@
 #root {
 	max-width: 1920px;
 }
+
 .nav {
 	display: flex;
 	position: fixed;
@@ -141,12 +142,13 @@
 .footer {
 	background-color: rgb(0, 0, 0, 0.4);
 	position: relative;
-	top: 49.4rem;
+	top: 92.1%;
+	width: 100%;
 	border-top: white solid 0.1rem;
 }
 
 .footer_container_data {
-	height: 8rem;
+	height: 4.5rem;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -154,6 +156,14 @@
 	color: white;
 	font-family: 'Inter';
 	src: url('./assets/Inter/Inter-VariableFont_opsz,wght.ttf');
+}
+
+li {
+	font-size: 0.8rem;
+}
+
+.resources_email {
+	font-size: 0.8rem;
 }
 
 .resources_spans {
@@ -165,19 +175,19 @@
 	background-image: url('./assets/img/Linkedin.png');
 	padding: 2em;
 	background-repeat: no-repeat;
-	transform: scale(0.9);
+	transform: scale(0.6);
 }
 
 .resources_github {
 	background-image: url('./assets/img/Github.png');
 	padding: 2em;
 	background-repeat: no-repeat;
-	transform: scale(0.9);
+	transform: scale(0.6);
 }
 
 .linear-gradient {
 	background: linear-gradient(rgb(11, 3, 3), rgb(215, 104, 3));
-	position: fixed;
+	position: relative;
 	width: 100%;
 	height: 100vh;
 }
@@ -202,33 +212,79 @@
 	font-family: Inter;
 }
 
-.flex-container{
+.flex-container {
 	position: fixed;
 	top: 5rem;
 	left: 75rem;
 	justify-content: center;
 	/* padding: 1rem; */
-
 }
 .Navbar_white {
 	font-family: 'Inter';
 	src: url('./assets/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf');
-	/* src: url('./asse/ts/Baloo_Chettan_2/BalooChettan2-VariableFont_wght.ttf'); */
 	display: flex;
-	
-	/* top: 4rem; */
-	/* width: 40%; */
-	/* height: 3rem; */
-	/* background-color: #ff8800; */
-	/* color: wheat; */
-	/* text-decoration: none; */
 }
-.Navbar_white a{
+.Navbar_white a {
 	font-size: 1.2em;
 	color: white;
-	padding: .5rem;
+	padding: 0.5rem;
 	text-decoration: none;
 }
+
+.main_header {
+	font-family: 'Inter';
+	position: absolute;
+	top: 28%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.2rem;
+	color: white;
+	text-align: center;
+}
+.main_header span {
+	font-size: 1.2rem;
+	color: rgb(220, 106, 44);
+}
+
+.flex-container-transport {
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+	gap: 1.5rem;
+}
+
+.flex-item {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+}
+
+.transport-image {
+	width: 16.5rem;
+	height: 25.125rem;
+	border-radius: 1rem;
+}
+
+.transport-caption {
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+	padding: 0;
+	margin: 1rem 0rem;
+	font-family: 'Inter';
+	background: none;
+	border: 1px solid white;
+	border-radius: 1rem;
+	cursor: pointer;
+}
+
+
 
 @media (max-width: 786px) {
 	#Welcome_web_page img {

@@ -2,14 +2,18 @@ import SmallLogo from '../Components/SmallLogo';
 import Navbar_white from '../Components/Navbar_white';
 import Footer from '../Components/Footer';
 
-const Ruter = () => {
+
+const Wskazowki_Metro = () => {
 	return (
-		<div className='linear-gradient'>	
-			<SmallLogo/>
+		<div className='linear-gradient'>
+			<SmallLogo />
 			<Navbar_white/>
+			
 			<Footer />
 		</div>
 	);
 };
 
-export default Ruter;
+export default Wskazowki_Metro;
+
+{/* <rectangle></rectangle> */}

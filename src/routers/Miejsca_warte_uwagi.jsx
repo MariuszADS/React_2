@@ -1,13 +1,14 @@
-// import Navbar from '../Components/Navbar';
+import SmallLogo from '../Components/SmallLogo';
+import Navbar_white from '../Components/Navbar_white';
 import Footer from '../Components/Footer';
-import '../App.css'
+
 
 const Miejsca_warte_uwagi = () => {
 	return (
-		<div >
-			{/* <h3>Miejsca_warte_uwagi</h3> */}
-            {/* <Navbar/> */}
-			<Footer/>
+		<div className='linear-gradient'>
+			<SmallLogo/>
+			<Navbar_white/>
+			<Footer />
 		</div>
 	);
 };
