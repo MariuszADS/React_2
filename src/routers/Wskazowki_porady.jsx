@@ -5,10 +5,11 @@ import tog from '../assets/img/De nye NSB-togene 1.jpg';
 import trikk from '../assets/img/Public Transport in Oslo 2.jpg';
 import bus from '../assets/img/Ruter AS, .jpg';
 import tbane from '../assets/img/Oslo T-Bane Metro (1) 2.jpg';
-// import frame from '../assets/img/Icon_Frame_bten.png'
-// import frameTbane from '../assets/img/T-bane_szkielet.png'
+import TipsContent from '../Components/TipsContentAutobus';
+import { useState } from 'react';
 
 const Wskazowki_porady = () => {
+	const [showComponent, setshowComponent] = useState(false);
 	return (
 		<div className='linear-gradient'>
 			<SmallLogo />
@@ -20,24 +21,33 @@ const Wskazowki_porady = () => {
 			</h3>
 			<section className='flex-container-transport'>
 				<div className='flex-item'>
-					<img src={bus} alt='Bus' className='transport-image'/>
-					<p className='transport-caption'>Autobus (Bus)</p>
+					<img src={bus} alt='Bus' className='transport-image' />
+					<button
+						className='transport-caption'
+						style={{
+							background: showComponent
+								? 'linear-gradient(rgb(11, 3, 3), rgb(0, 0, 0))'
+								: null,
+						}}
+						onClick={() => setshowComponent(!showComponent)}>
+						{showComponent ? 'Autobus (Bus)' : 'Pokaż Autobus (Bus)'}
+					</button>
 				</div>
 				<div className='flex-item'>
-					<img src={tog} alt='Bus' className='transport-image'/>
-					<p className='transport-caption'>Pociąg (Tog)</p>
+					<img src={tog} alt='Bus' className='transport-image' />
+					<button className='transport-caption'>Pociąg (Tog)</button>
 				</div>
 				<div className='flex-item'>
-					<img src={trikk} alt='Bus' className='transport-image'/>
-					<p className='transport-caption'>Tramwaj (Trikk)</p>
+					<img src={trikk} alt='Bus' className='transport-image' />
+					<button className='transport-caption'>Tramwaj (Trikk)</button>
 				</div>
 				<div className='flex-item'>
-					<img src={tbane} alt='Bus' className='transport-image'/>
+					<img src={tbane} alt='Bus' className='transport-image' />
 					<button className='transport-caption'>Metro (T-bane)</button>
 					{/* <p className='transport-caption'>Metro (T-bane) <img className='arrowBtn' src={frame}></img></p> */}
-					
 				</div>
 			</section>
+			{showComponent && <TipsContent />}
 			<Footer />
 		</div>
 	);

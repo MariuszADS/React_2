@@ -285,6 +285,63 @@ li {
 }
 
 
+.positionD{
+	position: relative;
+	background: linear-gradient(rgb(215, 104, 3),rgb(49, 48, 48));
+	height: 145vh;
+	top: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
+
+}
+.mainH {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: 200;
+	font-size: 2rem;
+	color: white;
+}
+.importantH {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: 200;
+	font-size: 1.5rem;
+	color: black;
+}
+.mapa_lini{
+	width: 65rem;
+	height: auto;
+}
+.listS {
+	color:black;
+}
+.tipsContentFirst ,.liDownloadS,.headindSpecialDsecond{
+	font-size: 1rem;
+	margin: .1rem;
+	font-family: Inter;
+	color: white;
+}
+.downloadS {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	color:black;
+}
+.headindDownloadS, h3{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: 200;
+	font-size: 1.5rem;
+}
+.headindSpecialD,.headindSpecialDsecond{
+	color: #ff8800;
+}
+.paragraphSpecialD{
+	font-family: Inter;
+	color: white;
+	font-size: 1rem;
+}
+
 
 @media (max-width: 786px) {
 	#Welcome_web_page img {

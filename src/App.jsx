@@ -3,9 +3,11 @@ import './App.css';
 import BigLogo from './Components/BigLogo';
 import NavbarFront from './Components/Navbar';
 
+
 function App() {
 	return (
 		<div>
+
 			<section>
 				<BackGround />
 			</section>

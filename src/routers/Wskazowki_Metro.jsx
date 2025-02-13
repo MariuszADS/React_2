@@ -1,6 +1,7 @@
 import SmallLogo from '../Components/SmallLogo';
 import Navbar_white from '../Components/Navbar_white';
 import Footer from '../Components/Footer';
+// import TipsContent from '../Components/TipsContent';
 
 
 const Wskazowki_Metro = () => {
@@ -8,7 +9,7 @@ const Wskazowki_Metro = () => {
 		<div className='linear-gradient'>
 			<SmallLogo />
 			<Navbar_white/>
-			
+			{/* <TipsContent/> */}
 			<Footer />
 		</div>
 	);
@@ -16,4 +17,3 @@ const Wskazowki_Metro = () => {
 
 export default Wskazowki_Metro;
 
-{/* <rectangle></rectangle> */}
