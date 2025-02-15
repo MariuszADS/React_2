@@ -1,40 +1,28 @@
 import '/src/App.css'
 
-export default function TipsContent() {
+export default function TipsContentAutobus() {
 	return (
 		<div className='positionD'>
-			<h1 className="mainH">Metro albo T-bane</h1>
+			<h1 className="mainH">Autobus albo bus</h1>
 			<h3 className="importantH">
-			Na co należy zwrócić uwagę przy podróżowaniu metrem z aplikacja Ruter # :
+			Na co należy zwrócić uwagę przy podróżowaniu autobusm z aplikacja Ruter # :
 			</h3>
 			<section>
 				<ul  className="listS">
-					<li className='tipsContentFirst'>Pobrać 	odpowiedna wersje aplikacji ponieważ inaczej nie kupimy biletu I 	<br/>nie sprawdzimy trasy żadnego transportu publiczengo albo kupić 	kartę w punkcie ‘Ruter’ I ją doładowywać a następnie 	odbijać w danym numerze lini metra</li>
-					<li className='tipsContentFirst'>
-					Jeśli 	chodzi o stacje w centrum Oslo(Nationaltheatret,Jernbanetorget,Stortinget) pierwsze dwa 	przystanki dysponują dostępem do metra,pociągów,autobusów.
-					</li>
-					<li className='tipsContentFirst'>
-					Wszystkie metra poruszają się w strefie pierwszej
-					</li>
-					<li className='tipsContentFirst'>Legitimacje	studenckie(polskie) są honorowane przez aplikacje “Ruter”</li>
-					<li className='tipsContentFirst'>w Oslo kursują zawsze dwa metra tej samej lini nr 5 ale jeżdżą w dwóch kierunkach. Mają one kierunek “Songsvann” oraz “Ringen via Tøyen”</li>
+					<li className='tipsContentFirst'>Warto 	zwrócić uwagę czy stoimy na odpowiednim przystanku ponieważ 	często w Oslo przystanki autobusowe są stawiane w jednym 	rzędzie lub rozmieszczone w różnych 	kierunkach i są oznaczone 	literami(A,B,C,D,E,F) ponieważ może się nam wydawać że stoimi 	na odpowiedim przystanku i autobus obok nas przejedzie.Wyjątkiem jest każdy “bussterminal’’ ponieważ tam autobusy muszą się zatrzymać i wjechać do detykowanego miejsca np “A”</li>
+
+					<li className='tipsContentFirst'>W 	Norwegii jest przyjęte, że jeśli nie wychylimy się lub nie 	pomachamy kierowcy ten się na danym przystanku nie zatrzyma 	ponieważ nie ma takiego wymogu.
+</li>
+					<li className='tipsContentFirst'>Bardzo 	ważne żeby kierowcy dać znać przyciskiem „STOP” bo 	przejedzie nas przystanek bez zastanowienia.</li>
+
+					<li className='tipsContentFirst'>Kierowcy 	autobusów w Oslo kommune oraz 	Bærum kommune często 	jeżdżą nie ostrożnie i łatwo się można przewrócić, więc 	zalecane wstać kiedy autobus się zatrzyma.</li>
 				</ul>
 			</section>
 			<section className="downloadS">
 				<h3 className='headindDownloadS'>
-				Rozkład lini metra w obrębie Oslo
+				Rozkład lini autobusów w obrębie Oslo
 				</h3>
-				    <img src='/src/assets/img/mapa_lini_metra.png' className='mapa_lini'/>
-                        <h3>
-						Szczegóły odnośnie metra do pobrania poniżej:
-                        </h3>
-                            <ul>
-                                <li className='liDownloadS'>Linia1_Metro_Oslo</li>
-                                <li className='liDownloadS'>Linia2_Metro_Oslo</li>
-                                <li className='liDownloadS'>Linia3_Metro_Oslo</li>
-                                <li className='liDownloadS'>Linia4_Metro_Oslo</li>
-                                <li className='liDownloadS'>Linia5_Metro_Oslo</li>
-                            </ul>
+				    <img src='/src/assets/img/mapa_autobus.jpg' className='mapa_autobusow'/>
 
             </section>
 			

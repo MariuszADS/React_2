@@ -312,12 +312,31 @@ li {
 	width: 65rem;
 	height: auto;
 }
-.listS {
-	color:black;
+.mapa_pociagi{
+	height: 40rem;
+	width: auto;
 }
+.mapa_autobusow{
+	height: 45rem;
+	width: auto;
+	border-radius: 2.2rem;
+}
+.mapa_lini_tramwajow{
+	height: 45rem;
+	width: auto;
+	border-radius: 5rem;
+}
+
+.listS {
+	margin: 0 5rem;
+	/* color:black;
+	flex-direction: column;
+	align-items: flex-end; */
+}
+
 .tipsContentFirst ,.liDownloadS,.headindSpecialDsecond{
 	font-size: 1rem;
-	margin: .1rem;
+	margin: .5rem;
 	font-family: Inter;
 	color: white;
 }
@@ -330,7 +349,7 @@ li {
 }
 .headindDownloadS, h3{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-weight: 200;
+	font-weight: lighter;
 	font-size: 1.5rem;
 }
 .headindSpecialD,.headindSpecialDsecond{
