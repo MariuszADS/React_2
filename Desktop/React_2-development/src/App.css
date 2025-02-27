@@ -195,11 +195,14 @@ li {
 .logo {
 	position: fixed;
 	display: flex;
+	/* align-items: center;
+	justify-content: center; */
 	transform: scale(0.5);
 }
 .s_oslo,
 .s_nabo {
 	font-size: 5rem;
+	/* margin: 0; */
 	font-weight: 600;
 	color: white;
 	font-family: Inter;
@@ -363,10 +366,11 @@ li {
 
 @media only screen and (max-width: 600px){
 	body {
-		background: linear-gradient(rgb(11, 3, 3), rgb(215, 104, 3));
+		background-color: #d76803;
+		/* background: linear-gradient(rgb(11, 3, 3), #d76803); */
 		/* position: relative; */
 		/* width: 100%; */
-		height: 200%;
+		/* height: 100vh; */
 	}
 
 	.linear-gradient, .flex-container-transport{
@@ -394,18 +398,33 @@ li {
 		top: 275%;
 		width: 100%;
 		height: 11rem;
-		/* gap: 1rem; */
-		/* flex-wrap: wrap; */
+		
 	}
 
 	.footer_container_data{
-		/* flex-wrap: wrap; */
+		
 		flex-direction: column;
-		/* margin: 1rem; */
+		
 	}
 	.categories{
 		margin: 0.5rem 0;
-		/* gap: 15rem; */
+	
+	}
+
+	.logo{
+		position: absolute;
+		top: 6.5%;
+		scale: 1.3;
+	
+	}
+	.main_header,.main_header span{
+		font-size: 1.5rem;
+		width: 25rem;
+	}
+
+	.mapa_lini{
+		width: 20rem;
+		height: auto;
 	}
 }
 /* 
