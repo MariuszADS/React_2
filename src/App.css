@@ -141,8 +141,8 @@
 /* --- */
 .footer {
 	background-color: rgb(0, 0, 0, 0.4);
-	position: relative;
-	top: 92.1%;
+	position:fixed;
+	bottom: 0;
 	width: 100%;
 	border-top: white solid 0.1rem;
 }
@@ -190,6 +190,7 @@ li {
 	position: relative;
 	width: 100%;
 	height: 100vh;
+	/* max-height: 300vh; */
 }
 
 .logo {
@@ -362,6 +363,27 @@ li {
 	font-family: Inter;
 	color: white;
 	font-size: 1rem;
+}
+
+.miejsca-container{
+	width: 35rem;
+	height: 20rem;
+	position: relative;
+	top: 17rem;
+	left: 15rem;
+	border-radius: 2rem;
+	border: white solid 1px;
+	padding: 1rem;
+	color: white;
+	/* color: white; */
+	background-color: rgb(0, 0, 0, 0.4);
+}
+.miejsce-image{
+
+}
+
+.miejsce-text{
+	
 }
 
 @media only screen and (max-width: 600px){
