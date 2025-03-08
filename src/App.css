@@ -7,12 +7,17 @@
 	font-family: 'Baloo_Chettan_2';
 	src: url('./assets/Baloo_Chettan_2/BalooChettan2-VariableFont_wght.ttf');
 }
-* {
+*{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
 }
+
+/* html{
+	margin: 0;
+	padding: 0;
+} */
 
 #root {
 	max-width: 1920px;
@@ -186,11 +191,17 @@ li {
 }
 
 .linear-gradient {
-	background: linear-gradient(rgb(11, 3, 3), rgb(215, 104, 3));
+	/* background: linear-gradient(rgb(11, 3, 3), rgb(215, 104, 3)); */
+	/* background:rgb(0, 0, 0, 0.8); */
 	position: relative;
-	width: 100%;
+/* bottom: 2.5rem; */
+	/* width: 100vw; */
 	height: 100vh;
 	/* max-height: 300vh; */
+}
+
+html{
+	background:rgb(0, 0, 0, 0.8);
 }
 
 .logo {
@@ -298,8 +309,8 @@ li {
 	flex-direction: column;
 	align-items: center;
 	gap: 1.5rem;
-
 }
+
 .mainH {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-weight: 200;
@@ -365,19 +376,49 @@ li {
 	font-size: 1rem;
 }
 
+
+.flex-container-miejsca{
+	position: relative;
+	top: 135%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 80vw;
+	height: 210vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 2rem;
+	padding: 1rem;
+	align-items: center;
+}
+
 .miejsca-container{
 	width: 35rem;
-	height: 20rem;
+	height: 25rem;
 	position: relative;
-	top: 17rem;
-	left: 15rem;
 	border-radius: 2rem;
-	border: white solid 1px;
+	border: white solid 3px;
 	padding: 1rem;
 	color: white;
-	/* color: white; */
 	background-color: rgb(0, 0, 0, 0.4);
+	margin: 1rem;
 }
+
+.flex-container-paragraph{
+	position: relative;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 70vw;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	
+}
+.flex-container-paragraph p{
+	color: white;
+}
+
 .miejsce-image{
 
 }

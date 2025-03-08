@@ -10,17 +10,93 @@ const Miejsca_warte_uwagi = () => {
 		<div className='linear-gradient'>
 			<SmallLogo/>
 			<Navbar_white/>
+			<div className='flex-container-miejsca'>
+
 			<Miejsca_context
 			images={[
-			  "../assets/img/",
-			  "../assets/img/",
-			  "../assets/img/",
-			]}
-			altTexts={["Pierwszy obraz", "Drugi obraz", "Trzeci obraz"]}
-			text="To jest przykładowy tekst pod zdjęciami."
-			interval={3000} // Czas w milisekundach (opcjonalnie)
-		   />
+				"../assets/img/",
+				"../assets/img/",
+				"../assets/img/",
+				]}
+				altTexts={["Pierwszy obraz", "Drugi obraz", "Trzeci obraz"]}
+				text="To jest przykładowy tekst pod zdjęciami."
+				interval={3000} // Czas w milisekundach (opcjonalnie)
+				/>
+			<Miejsca_context
+			images={[
+				"../assets/img/",
+				"../assets/img/",
+				"../assets/img/",
+				]}
+				altTexts={["Pierwszy obraz", "Drugi obraz", "Trzeci obraz"]}
+				text="To jest przykładowy tekst pod zdjęciami."
+				interval={3000} // Czas w milisekundach (opcjonalnie)
+				/>
+			<Miejsca_context
+			images={[
+				"../assets/img/",
+				"../assets/img/",
+				"../assets/img/",
+				]}
+				altTexts={["Pierwszy obraz", "Drugi obraz", "Trzeci obraz"]}
+				text="To jest przykładowy tekst pod zdjęciami."
+				interval={3000} // Czas w milisekundach (opcjonalnie)
+				/>
+			<Miejsca_context
+			images={[
+				"../assets/img/",
+				"../assets/img/",
+				"../assets/img/",
+				]}
+				altTexts={["Pierwszy obraz", "Drugi obraz", "Trzeci obraz"]}
+				text="To jest przykładowy tekst pod zdjęciami."
+				interval={3000} // Czas w milisekundach (opcjonalnie)
+				/>
+			<Miejsca_context
+			images={[
+				"../assets/img/",
+				"../assets/img/",
+				"../assets/img/",
+				]}
+				altTexts={["Pierwszy obraz", "Drugi obraz", "Trzeci obraz"]}
+				text="To jest przykładowy tekst pod zdjęciami."
+				interval={3000} // Czas w milisekundach (opcjonalnie)
+				/>
+			<Miejsca_context
+			images={[
+				"../assets/img/",
+				"../assets/img/",
+				"../assets/img/",
+				]}
+				altTexts={["Pierwszy obraz", "Drugi obraz", "Trzeci obraz"]}
+				text="To jest przykładowy tekst pod zdjęciami."
+				interval={3000} // Czas w milisekundach (opcjonalnie)
+				/>
+			<Miejsca_context
+			images={[
+				"../assets/img/",
+				"../assets/img/",
+				"../assets/img/",
+				]}
+				altTexts={["Pierwszy obraz", "Drugi obraz", "Trzeci obraz"]}
+				text="To jest przykładowy tekst pod zdjęciami."
+				interval={3000} // Czas w milisekundach (opcjonalnie)
+				/>
+			<Miejsca_context
+			images={[
+				"../assets/img/",
+				"../assets/img/",
+				"../assets/img/",
+				]}
+				altTexts={["Pierwszy obraz", "Drugi obraz", "Trzeci obraz"]}
+				text="To jest przykładowy tekst pod zdjęciami."
+				interval={3000} // Czas w milisekundach (opcjonalnie)
+				/>
 			
+				</div>
+				<div className='flex-container-paragraph'>
+					<p>Culpa consequat cillum in aliqua aute exercitation velit. Lorem ullamco eu aliquip Lorem consectetur do consectetur ea non deserunt fugiat.</p> </div>
+			{/* <div className='linear-gradient-2'/> */}
 			<Footer />
 		</div>
 	);
