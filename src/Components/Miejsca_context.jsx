@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
 
-const Miejsca_context = ({ images, altTexts, text, interval = 3000 }) => {
+const Miejsca_context = ({ images, altTexts, text, header , interval = 3000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -19,13 +19,15 @@ const Miejsca_context = ({ images, altTexts, text, interval = 3000 }) => {
         alt={altTexts[currentIndex]}
         className="miejsca-image"
       />
+      <h1>{header}</h1>
       <p className="miejsca-text">{text}</p>
     </div>
   );
 };
 
-// ✅ Poprawione PropTypes
+
 Miejsca_context.propTypes = {
+  header: PropTypes.string.isRequired,
   images: PropTypes.arrayOf(PropTypes.string).isRequired,
   altTexts: PropTypes.arrayOf(PropTypes.string).isRequired,
   text: PropTypes.string.isRequired,
