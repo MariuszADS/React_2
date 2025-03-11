@@ -7,8 +7,8 @@ const Navbar_white = () => {
         <span><Link to={'/'}>Oslo&nabo</Link></span>
         <span><Link to={'/wskazowki'}>Wskazówki i porady</Link></span>
         <span><Link to={'/miejsca'}>Miejsca warte uwagi</Link></span>
-        <span><Link to={'/kontakt'}>Kontakt</Link></span>
-        <span><Link to={'/ruter'}>Ruter #</Link></span>
+        {/* <span><Link to={'/kontakt'}>Kontakt</Link></span> */}
+        <span><Link to={'https://ruter.no/'}>Ruter #</Link></span>
         </div>
       </div>
   )
