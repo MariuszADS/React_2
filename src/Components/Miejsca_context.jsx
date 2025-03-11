@@ -25,12 +25,12 @@ const Miejsca_context = ({ images, altTexts, text, header , interval = 3000 }) =
   );
 };
 
-
-Miejsca_context.propTypes = {
-  header: PropTypes.string.isRequired,
+// ✅ Minimal PropTypes for ESLint
+MiejscaContext.propTypes = {
   images: PropTypes.arrayOf(PropTypes.string).isRequired,
   altTexts: PropTypes.arrayOf(PropTypes.string).isRequired,
   text: PropTypes.string.isRequired,
+  header: PropTypes.string.isRequired,
   interval: PropTypes.number,
 };
 
