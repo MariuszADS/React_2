@@ -1,28 +1,19 @@
-import BackGround from './Components/BackGround';
 import './App.css';
+import oslo from './assets/img/front_img/DSC_0140.JPG.JPG';
 import BigLogo from './Components/BigLogo';
 import NavbarFront from './Components/Navbar';
+import Footer from './Components/Footer'
+// import './mobile_hamburger.css'; 
 
 
 function App() {
 	return (
 		<div>
-
-			<section>
-				<BackGround />
-			</section>
-			<section className='bgc_logo'>
-				<BigLogo />
-				<p className='bgc_logo_par'>
-					Aplikacja powstała w celu ułatwienia poruszania
-					<br /> się komunikacją publiczną oraz uzupełnienie dla
-					<br /> aplikacji Ruter # dla nowo odwiedzających rejon
-					<br /> Oslo Kommune i nie tylko.
-				</p>
-			</section>
-			<section>
+			<img className='BackGround_img' src={oslo} />
+			<div className='BackGround_gray'/>
 			<NavbarFront />
-			</section>
+			<BigLogo />
+			<Footer/>
 		</div>
 	);
 }

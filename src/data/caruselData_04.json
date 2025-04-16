@@ -1,7 +1,7 @@
 {
-    "slides": [
+    "bygdoy": [
       {
-        "src": "https://raw.githubusercontent.com/MariuszADS/React_2/refs/heads/main/src/assets/img/72%20hours%20in%20Oslo%2C%20Norway.jfif",
+        "src": "https://raw.githubusercontent.com/MariuszADS/React_2/refs/heads/mobile_max600px/src/assets/img/ekeberg.jpg",
         "alt": "Image 1 for carousel"
        
       },
@@ -11,7 +11,7 @@
         
       },
       {
-        "src": "https://picsum.photos/seed/img3/600/400",
+        "src": "https://raw.githubusercontent.com/MariuszADS/React_2/refs/heads/mobile_max600px/src/assets/img/ekeberg.jpg0",
         "alt": "Image 3 for carousel"
         
       }

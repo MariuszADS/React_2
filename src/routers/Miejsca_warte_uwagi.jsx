@@ -2,7 +2,14 @@ import SmallLogo from '../Components/SmallLogo';
 import Navbar_white from '../Components/Navbar_white';
 import Footer from '../Components/Footer';
 import { Carousel } from '../Components/Carousel';
-import {slides} from "../data/caruselData.json"
+import {sognsvann} from "../data/caruselData_00.json"
+import {nordmarka} from "../data/caruselData_01.json"
+import {forgner_park} from "../data/caruselData_02.json"
+import {ekebergparken} from "../data/caruselData_03.json"
+import {bygdoy} from "../data/caruselData_04.json"
+import {wyspy_oslo} from "../data/caruselData_05.json"
+import {holmenkollen} from "../data/caruselData_06.json"
+import {tryvann_vinterpark} from "../data/caruselData_07.json"
 
 
 const Miejsca_warte_uwagi = () => {
@@ -11,37 +18,37 @@ const Miejsca_warte_uwagi = () => {
 			<SmallLogo/>
 			<Navbar_white/>
 			<div className='flex-container-miejsca'>
-			<Carousel data={slides}>
-				<h2>Lorem</h2>
-				<p>Id sint magna proident magna esse dolore ad</p>
+			<Carousel data={sognsvann}>
+				<h2>Jezioro Sognsvann</h2>
+				<p> Popularne miejsce do spacerów, biegania i pikników. Dojazd linią metra nr 5 do stacji Sognsvann.</p>
 			</Carousel>
-			<Carousel data={slides}>
-				<h2>Lorem</h2>
-				<p>Id sint magna proident magna esse dolore ad</p>
+			<Carousel data={nordmarka}>
+				<h2>Frogner Park</h2>
+				<p>Znany z rzeźb Gustava Vigelanda, idealny na spacery i relaks. Dojazd tramwajem linii 12 do przystanku Vigelandsparken.</p>
 			</Carousel>
-			<Carousel data={slides}>
-				<h2>Lorem</h2>
-				<p>Id sint magna proident magna esse dolore ad</p>
+			<Carousel data={forgner_park}>
+				<h2>Bygdøy</h2>
+				<p> Półwysep z muzeami i plażami. Dojazd autobusem linii 30 do przystanku Bygdøynes.</p>
 			</Carousel>
-			<Carousel data={slides}>
-				<h2>Lorem</h2>
-				<p>Id sint magna proident magna esse dolore ad</p>
+			<Carousel data={ekebergparken}>
+				<h2>Holmenkollen</h2>
+				<p>Skocznia narciarska z muzeum narciarstwa i panoramicznym widokiem na Oslo. Dojazd linią metra nr 1 do stacji Holmenkollen.</p>
 			</Carousel>
-			<Carousel data={slides}>
-				<h2>Lorem</h2>
-				<p>Id sint magna proident magna esse dolore ad</p>
+			<Carousel data={bygdoy}>
+				<h2>Nordmarka</h2>
+				<p>Rozległy obszar leśny idealny do pieszych wędrówek, jazdy na rowerze i narciarstwa biegowego. Dojazd linią metra nr 1 do stacji Frognerseteren.</p>
 			</Carousel>
-			<Carousel data={slides}>
-				<h2>Lorem</h2>
-				<p>Id sint magna proident magna esse dolore ad</p>
+			<Carousel data={wyspy_oslo}>
+				<h2>Ekebergparken</h2>
+				<p>Park rzeźb z widokiem na miasto. Dojazd tramwajem linii 18 lub 19 do przystanku Ekebergparken.</p>
 			</Carousel>
-			<Carousel data={slides}>
-				<h2>Lorem</h2>
-				<p>Id sint magna proident magna esse dolore ad</p>
+			<Carousel data={holmenkollen}>
+				<h2>Wyspy Oslofjordu</h2>
+				<p>Miejsca do kąpieli i pikników. Promy linii 91–94 z Rådhusbrygge obsługiwane przez Oslo-Fergene.</p>
 			</Carousel>
-			<Carousel data={slides}>
-				<h2>Lorem</h2>
-				<p>Id sint magna proident magna esse dolore ad</p>
+			<Carousel data={tryvann_vinterpark}>
+				<h2>Tryvann Vinterpark</h2>
+				<p>Ośrodek narciarski z trasami zjazdowymi. Dojazd linią metra nr 1 do stacji Voksenkollen, a następnie autobusem wahadłowym.</p>
 			</Carousel>
 				</div>
 				<div className='flex-container-paragraph'>

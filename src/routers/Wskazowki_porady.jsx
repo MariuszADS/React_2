@@ -10,6 +10,7 @@ import TipsContentTramwaj from '../Components/TipsContentTramwaj';
 import TipsContentPociag from '../Components/TipsContentPociag';
 import TipsContentAutobus from '../Components/TipsContentAutobus';
 import { useState } from 'react';
+// import Navbar_burger from '../Components/Navbar_burger';
 // import 'App.css'
 
 const Wskazowki_porady = () => {
