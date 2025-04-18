@@ -5,29 +5,35 @@ export default function Footer() {
 				<div className='categories'>
 					<div className='categories_column_rules'>
 						<ul>
-							<li>O mnie</li>
-							<li>Regulamin</li>
+							<li className="li_00">O mnie</li>
+							<li className="li_00">Regulamin</li>
 						</ul>
 					</div>
 				</div>
 				{/* dodać linki do li */}
 				<div className='navigation'>
 					<div className='navigation_column'>
-						<ul>
-							<li>Wskazówki i porady</li>
-							<li>Miejsca wartę uwagi</li>
-							<li>Kontakt</li>
-							<li>Ruter</li>
+						<ul className="navigation_column_list">
+						<li><a href="/wskazowki">Wskazówki i porady</a></li>
+						<li><a href="/miejsca">Miejsca warte uwagi</a></li>
+						<li><a href="/">Oslo&nabo</a></li>
+						<li><a href="https://ruter.no/">Ruter</a></li>
 						</ul>
 					</div>
-				</div>
+					</div>
+
 
 				<div className='resources_spans'>
 					{/* dodać linki do github i linkedin */}
 					<span className='resources_email'>Email: kacperbak00@gmail.com</span>
-					<img className='resources_github' />
+					<a href='https://github.com/MariuszADS' target='_blank' rel='noopener noreferrer'>
+					<img className='resources_github' href='https://github.com/MariuszADS'/>
+					</a>
+					<a href='https://www.linkedin.com/in/kacper-bak-0aab37232/' target='_blank' rel='noopener noreferrer'>
 					<img className='resources_linkedin' />
-					{/* <br /> */}
+					</a>
+					
+					{/*  */}
 				</div>
 			</div>
 		</div>
