@@ -24,7 +24,6 @@ const Wskazowki_porady = () => {
 		<div className='linear-gradient'>
 			<SmallLogo />
 			<Navbar_white />
-			{/* <image className='frameTbane' src={frameTbane}/> */}
 			<h3 className='main_header'>
 				Ważne <span>wskazówki</span> oraz <span>rady</span> które pomogą w
 				zwiedzaniu Oslo oraz mape wojewódźtw dostarczaną przez aplikacje Ruter:
@@ -32,8 +31,7 @@ const Wskazowki_porady = () => {
 			<section className='flex-container-transport'>
 				<div className='flex-item'>
 				<img src={tbane} alt='Metro' className='transport-image' />
-					<button
-						className='transport-caption'
+					<button className='transport-caption'
 						style={{background: showComponent? 'linear-gradient(rgb(11, 3, 3), rgb(0, 0, 0))': null,}}
 						onClick={() => setshowComponent(!showComponent)}>
 						{showComponent ? 'Metro (T-bane)' : 'Pokaż Metro (T-bane)'}
@@ -75,3 +73,14 @@ const Wskazowki_porady = () => {
 };
 
 export default Wskazowki_porady;
+
+
+
+/**
+<button 
+					className='transport-caption'
+					style={{background:showComponent_1? 'linear-gradient(rgb(11, 3, 3), rgb(0, 0, 0))': null}}
+					onClick={()=> setshowComponent_1(!showComponent_1)}>
+					{showComponent_1 ? 'Tramwaj (trikk)' : 'Pokaż Tramwaj (trikk)'}
+					</button>
+ */
