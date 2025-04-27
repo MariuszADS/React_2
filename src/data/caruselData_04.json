@@ -1,0 +1,20 @@
+{
+    "bygdoy": [
+      {
+        "src": "https://raw.githubusercontent.com/MariuszADS/React_2/refs/heads/mobile_max600px/src/assets/img/ekeberg.jpg",
+        "alt": "Image 1 for carousel"
+       
+      },
+      {
+        "src": "https://raw.githubusercontent.com/MariuszADS/React_2/refs/heads/mobile_max600px/src/assets/img/bygdoy.jpg",
+        "alt": "Image 2 for carousel"
+        
+      },
+      {
+        "src": "https://raw.githubusercontent.com/MariuszADS/React_2/refs/heads/mobile_max600px/src/assets/img/ekeberg.jpg0",
+        "alt": "Image 3 for carousel"
+        
+      }
+    ]
+  }
+  
