@@ -4,7 +4,7 @@
 const BigLogo = () => {
 	return (
 		<div className='BigLogo'>
-			<div>
+			<div className="main_logo">
 			<span className='logo_part_oslo'>Oslo</span>
 			<span className='logo_part_ampersand'>&</span>
 			<span className='logo_part_nabo'>nabo</span>

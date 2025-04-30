@@ -1,8 +1,10 @@
 import '/src/App.css';
-
+import Navbar_white from './Navbar_white';
+import Footer from './Footer';
 export default function TipsContentPociag() {
 	return (
 		<div className='positionD'>
+			<Navbar_white />
 			<h1 className='mainH'>Pociąg albo Tog</h1>
 			<h3 className='importantH'>
 				Na co należy zwrócić uwagę przy podróżowaniu pociągiem z aplikacja Ruter
@@ -73,6 +75,7 @@ export default function TipsContentPociag() {
 					zostanie uiszczona jest w poźniejszym terminie wynosi 1437kr.
 				</strong>
 			</h2>
+			<Footer />
 		</div>
 	);
 }

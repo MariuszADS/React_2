@@ -44,11 +44,8 @@ const Wskazowki_porady = () => {
 					</Link>
 				</div>
 			</section>
-			{/* <Footer_00 /> */}
-			<div className='f'>
-
+			
 			<Footer/>
-			</div>
 
 		</div>
 	);

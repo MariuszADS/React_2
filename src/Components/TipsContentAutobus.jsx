@@ -1,8 +1,10 @@
 import '/src/App.css'
-
+import Navbar_white from './Navbar_white';
+import Footer from './Footer';
 export default function TipsContentAutobus() {
 	return (
 		<div className='positionD'>
+			<Navbar_white />
 			<h1 className="mainH">Autobus albo bus</h1>
 			<h3 className="importantH">
 			Na co należy zwrócić uwagę przy podróżowaniu autobusm z aplikacja Ruter # :
@@ -33,6 +35,7 @@ export default function TipsContentAutobus() {
 			</div>
 
 			<h2 className='headindSpecialDsecond'><strong>Mandat za nie posiadanie biletu wynosi 1237kr na miejscu, gdy opłata zostanie uiszczona jest w poźniejszym terminie wynosi 1437kr.</strong></h2>
+			<Footer/>
 		</div>
 	);
 }
