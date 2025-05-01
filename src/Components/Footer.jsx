@@ -6,8 +6,8 @@ export default function Footer() {
 				<div className='categories'>
 					<div className='categories_column_rules'>
 						<ul>
-							<li className="li_00">O mnie</li>
-							<li className="li_00">Regulamin</li>
+							<li className="li_00"></li>
+							<li className="li_00"></li>
 						</ul>
 					</div>
 				</div>
@@ -27,10 +27,10 @@ export default function Footer() {
 				<div className='resources_spans'>
 					{/* dodać linki do github i linkedin */}
 					<span className='resources_email'>Email: kacperbak00@gmail.com</span>
-					<a href='https://github.com/MariuszADS' target='_blank' rel='noopener noreferrer'>
+					<a className="span_a" href='https://github.com/MariuszADS' target='_blank' rel='noopener noreferrer'>
 					<img className='resources_github' href='https://github.com/MariuszADS'/>
 					</a>
-					<a href='https://www.linkedin.com/in/kacper-bak-0aab37232/' target='_blank' rel='noopener noreferrer'>
+					<a className="span_a" href='https://www.linkedin.com/in/kacper-bak-0aab37232/' target='_blank' rel='noopener noreferrer'>
 					<img className='resources_linkedin' />
 					</a>
 				</div>

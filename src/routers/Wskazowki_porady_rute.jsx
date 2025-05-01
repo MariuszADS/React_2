@@ -43,10 +43,13 @@ const Wskazowki_porady = () => {
 						Autobus (bus)
 					</Link>
 				</div>
+			
 			</section>
 			
+			<div className='none'>
 			<Footer/>
-
+			</div>
+			{/* <Footer /> */}
 		</div>
 	);
 };
