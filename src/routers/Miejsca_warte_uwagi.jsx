@@ -10,6 +10,8 @@ const Miejsca_warte_uwagi = () => {
     <div className="linear-gradient">
       <SmallLogo />
       <Navbar_white />
+      <h3 className="main_header">
+        Miejsca warte uwagi w Oslo, które warto odwiedzić:</h3>
       <div className="flex-container-miejsca">
         {miejsca.map((miejsce, index) => (
           <Miejsce key={index} miejsce={miejsce} />

@@ -25,14 +25,13 @@ export default function Footer() {
 
 
 				<div className='resources_spans'>
-					{/* dodać linki do github i linkedin */}
 					<span className='resources_email'>Email: kacperbak00@gmail.com</span>
-					<a className="span_a" href='https://github.com/MariuszADS' target='_blank' rel='noopener noreferrer'>
-					<img className='resources_github' href='https://github.com/MariuszADS'/>
-					</a>
-					<a className="span_a" href='https://www.linkedin.com/in/kacper-bak-0aab37232/' target='_blank' rel='noopener noreferrer'>
-					<img className='resources_linkedin' />
-					</a>
+					
+					<a className='resources_github' href='https://github.com/MariuszADS' target='_blank' rel='noopener noreferrer'/>
+					
+					
+					<a className='resources_linkedin' href='https://www.linkedin.com/in/kacper-bak-0aab37232/' target='_blank' rel='noopener noreferrer'/>
+					
 				</div>
 			</div>
 		</div>

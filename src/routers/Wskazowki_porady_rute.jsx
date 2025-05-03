@@ -14,7 +14,7 @@ const Wskazowki_porady = () => {
 			<Navbar_white />
 			<SmallLogo />
 			<h3 className='main_header' >
-				Ważne <span>wskazówki</span> oraz <span>rady</span> które pomogą w
+				Ważne wskazówki oraz rady które pomogą w
 				zwiedzaniu Oslo oraz mape wojewódźtw dostarczaną przez aplikacje Ruter:
 			</h3>
 
