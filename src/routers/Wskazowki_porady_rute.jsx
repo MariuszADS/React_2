@@ -24,6 +24,7 @@ const Wskazowki_porady = () => {
 					<Link to='/metro' className='transport-caption'>
 						Metro (T-bane)
 					</Link>
+					
 				</div>
 				<div className='flex-item'>
 					<img src={trikk} alt='Trikk' className='transport-image' />

@@ -2,6 +2,7 @@ import '/src/App.css'
 import Navbar_white from './Navbar_white';
 // import Back from './Back'
 import Footer from './Footer';
+import DownloadButton from './DownloadButton';
 
 export default function TipsContentMetro() {
 	return (
@@ -33,7 +34,7 @@ export default function TipsContentMetro() {
 						Szczegóły odnośnie metra do pobrania poniżej:
                         </h3>
                             <ul>
-                                <li className='liDownloadS'>Metro_Oslo</li>
+                                <DownloadButton className='liDownloadS'>Metro_Oslo</DownloadButton>
                             </ul>
 
             </section>
