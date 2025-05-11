@@ -417,13 +417,14 @@ html{
 	font-weight: 200;
 	font-size: 2rem;
 	color: white;
+	margin-top: 3rem;
 }
 .importantH {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 200;
   font-size: 1.2rem;
   color: black;
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 0.5rem;
   text-align: center;
 }
 .mapa_lini{
@@ -431,11 +432,11 @@ html{
 	height: auto;
 }
 .mapa_pociagi{
-	height: 35rem;
+	height: 33rem;
 	width: auto;
 }
 .mapa_autobusow{
-	height: 45rem;
+	height: 42rem;
 	width: auto;
 	border-radius: 2.2rem;
 }
@@ -623,6 +624,17 @@ html{
 		font-size: 1rem;
 		margin-top: 1rem;
 		font-family: 'Inter';
+	}
+
+	.downloadBtn{
+		font-size: 1.3rem;
+		padding: .3rem;
+		border: 2px solid rgb(0, 0, 0);
+		/* background-color: rgb(155, 155, 155); */
+		color: rgb(0, 0, 0);
+		border-radius: .5rem;
+		cursor: pointer;
+		font-weight: 500;
 	}
 
 	

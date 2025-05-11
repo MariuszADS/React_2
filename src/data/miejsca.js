@@ -9,7 +9,8 @@ import ekebergparken_03 from "../assets/img/zdjecia_miesjca/Ekebergparken/ekeber
 import frogner_00 from "../assets/img/zdjecia_miesjca/Frogner_park/frogner_00.JPG";
 import frogner_01 from "../assets/img/zdjecia_miesjca/Frogner_park/frogner_01.JPG";
 import frogner_02 from "../assets/img/zdjecia_miesjca/Frogner_park/frogner_02.JPG";
-import frogner_03 from "../assets/img/zdjecia_miesjca/Frogner_park/frogner_03.JPG";
+// import frogner_03 from "../assets/img/zdjecia_miesjca/Frogner_park/frogner_03.JPG";
+import frogner_04 from "../assets/img/zdjecia_miesjca/Frogner_park/frogner_04.JPG";
 import holmenkollen_00 from "../assets/img/zdjecia_miesjca/Holmenkollen/holmenkollen_00.JPG";
 import holmenkollen_01 from "../assets/img/zdjecia_miesjca/Holmenkollen/holmenkollen_01.JPG";
 import holmenkollen_02 from "../assets/img/zdjecia_miesjca/Holmenkollen/holmenkollen_02.JPG";
@@ -42,7 +43,7 @@ export const miejsca = [
   },
   {
     title: "Ekebergparken",
-    description: "Park z pięknymi widokami na Oslo i rzeźbami.",
+    description: "Park z pięknymi rzeźbami i widokami na Oslo.",
     images: [
       { src: ekebergparken_00, alt: "ekebergparken" },
       { src: ekebergparken_01, alt: "ekebergparken" },
@@ -57,7 +58,7 @@ export const miejsca = [
       { src: frogner_00, alt: "frogner park" },
       { src: frogner_01, alt: "frogner park" },
       { src: frogner_02, alt: "frogner park" },
-      { src: frogner_03, alt: "frogner park" },
+      { src: frogner_04, alt: "frogner park" },
     ]
   },
   {

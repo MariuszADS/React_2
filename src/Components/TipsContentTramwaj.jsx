@@ -13,6 +13,7 @@ export default function TipsContentTramwaj() {
 			<section>
 				<ul  className="listS">
 					<li className='tipsContentFirst'>Tramwaje w Oslo mają tendencje do częstego spóźniania się 	i jeśli mamy z nich kożystać lepiej mięć zapas czasu gdy są środkiem lokomocji pośredniczącym.</li>
+					<li className='tipsContentFirst'>Powtarzalnym problemem są znikające z tablicy odjazdów linie wraz z aplikacji Ruter po czym zwykle następuje opóźnienie kilku minutowe. </li>
 				</ul>
 			</section>
 			<section className="downloadS">

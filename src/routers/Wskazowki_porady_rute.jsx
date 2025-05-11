@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import SmallLogo from '../Components/SmallLogo';
 import Navbar_white from '../Components/Navbar_white';
-import tog from '../assets/img/De nye NSB-togene 1.jpg';
-import trikk from '../assets/img/Public Transport in Oslo 2.jpg';
-import bus from '../assets/img/Ruter AS, .jpg';
-import tbane from '../assets/img/Oslo T-Bane Metro (1) 2.jpg';
+import tog from '../assets/img/front_img_tog.JPG';
+import trikk from '../assets/img/front_img_trikk.JPG';
+import bus from '../assets/img/front_img_bus_2.JPG';
+import tbane from '../assets/img/front_img_bane.JPG';
 import Footer from '../Components/Footer';
 
 

@@ -14,7 +14,7 @@ export default function TipsContentMetro() {
 			</h3>
 			<section>
 				<ul  className="listS">
-					<li className='tipsContentFirst'>Pobrać 	odpowiedna wersje aplikacji ponieważ inaczej nie kupimy biletu I 	<br/>nie sprawdzimy trasy żadnego transportu publiczengo albo kupić 	kartę w punkcie ‘Ruter’ I ją doładowywać a następnie 	odbijać w danym numerze lini metra</li>
+					<li className='tipsContentFirst'>Pobrać	odpowiedna wersje aplikacji ponieważ inaczej nie kupimy biletu albo kupić 	kartę w punkcie ‘Ruter’ I ją doładowywać a następnie odbijać w danym numerze lini metra oraz nie sprawdzimy trasy żadnego transportu publiczengo </li>
 					<li className='tipsContentFirst'>
 					Jeśli 	chodzi o stacje w centrum Oslo(Nationaltheatret,Jernbanetorget,Stortinget) pierwsze dwa 	przystanki dysponują dostępem do metra,pociągów,autobusów.
 					</li>
@@ -31,7 +31,7 @@ export default function TipsContentMetro() {
 				</h3>
 				    <img src='/src/assets/img/mapa_lini_metra.png' className='mapa_lini'/>
                         <h3>
-						Szczegóły odnośnie metra do pobrania poniżej:
+						Szczegóły odnośnie metra i pociągów do pobrania poniżej:
                         </h3>
                             <ul>
                                 <DownloadButton className='liDownloadS'>Metro_Oslo</DownloadButton>

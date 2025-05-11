@@ -1,6 +1,7 @@
 import '/src/App.css';
 import Navbar_white from './Navbar_white';
 import Footer from './Footer';
+import DownloadButton from './DownloadButton';
 export default function TipsContentPociag() {
 	return (
 		<div className='positionD'>
@@ -49,9 +50,15 @@ export default function TipsContentPociag() {
 					Rozkład lini pociągów w obrębie Oslo
 				</h3>
 				<img src='/src/assets/img/mapa_pociagi.jpg' className='mapa_pociagi' />
-				<h3 className='importantH'>
+				{/* <h3 className='importantH'>
 					Udogodnienia w wojewódźtwach siąsadujących z Oslo wraz z strefami udogodnienia dotyczna pierwszych bardziej rozbudowanych stacji
-				</h3>
+				</h3> */}
+				<h3 className='importantH'>
+						Szczegóły odnośnie metra i pociągów do pobrania poniżej:
+                        </h3>
+                            <ul>
+                                <DownloadButton className='liDownloadS'>Metro_Oslo</DownloadButton>
+                            </ul>
 			</section>
 
 			<div className='specialD'>
