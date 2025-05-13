@@ -23,7 +23,7 @@ function DownloadButton() {
     console.log('Pobieranie pliku lokalnego...');
 
     try {
-      const response = await fetch('downloads/legenda_inż.pdf');
+      const response = await fetch('/public/downloads/legenda_metro_pociac.pdf');
       if (!response.ok) throw new Error('Nie udało się pobrać lokalnego pliku');
 
       const blob = await response.blob();

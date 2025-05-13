@@ -30,7 +30,7 @@ export default function TipsContentMetro() {
 				Rozkład lini metra w obrębie Oslo
 				</h3>
 				    <img src='/src/assets/img/mapa_lini_metra.png' className='mapa_lini'/>
-                        <h3>
+                        <h3 className='headindDownloadS'>
 						Szczegóły odnośnie metra i pociągów do pobrania poniżej:
                         </h3>
                             <ul>

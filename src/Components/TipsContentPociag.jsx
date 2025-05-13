@@ -49,7 +49,7 @@ export default function TipsContentPociag() {
 				<h3 className='headindDownloadS'>
 					Rozkład lini pociągów w obrębie Oslo
 				</h3>
-				<img src='/src/assets/img/mapa_pociagi.jpg' className='mapa_pociagi' />
+				<img src='/src/assets/img/mapa_pociagow.jpg' className='mapa_pociagi' />
 				{/* <h3 className='importantH'>
 					Udogodnienia w wojewódźtwach siąsadujących z Oslo wraz z strefami udogodnienia dotyczna pierwszych bardziej rozbudowanych stacji
 				</h3> */}
