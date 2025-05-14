@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
 import {router} from './router.jsx'
 import './App.css'
-import './Components/footer_00.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

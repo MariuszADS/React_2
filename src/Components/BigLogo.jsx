@@ -1,6 +1,3 @@
-// import React from 'react';
-// import '../css_components';
-
 const BigLogo = () => {
 	return (
 		<div className='BigLogo'>

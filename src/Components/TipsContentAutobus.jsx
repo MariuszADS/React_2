@@ -1,4 +1,4 @@
-import '/src/App.css'
+import '../App.css';
 import Navbar_white from './Navbar_white';
 import Footer from './Footer';
 export default function TipsContentAutobus() {

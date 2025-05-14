@@ -6,6 +6,7 @@ import trikk from '../assets/img/front_img_trikk.JPG';
 import bus from '../assets/img/front_img_bus_2.JPG';
 import tbane from '../assets/img/front_img_bane.JPG';
 import Footer from '../Components/Footer';
+import '../App.css'
 
 
 const Wskazowki_porady = () => {

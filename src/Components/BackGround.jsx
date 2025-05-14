@@ -1,5 +1,3 @@
-
-
 import oslo from '../assets/img/front_img/DSC_0140.JPG.JPG';
 export default function BackGround() {
 	return (

@@ -1,5 +1,3 @@
-// import React from 'react';
-// import '../css_components';
 import '../App.css'
 
 const SmallLogo = () => {

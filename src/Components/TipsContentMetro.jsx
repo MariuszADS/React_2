@@ -1,6 +1,5 @@
-import '/src/App.css'
+import '../App.css'
 import Navbar_white from './Navbar_white';
-// import Back from './Back'
 import Footer from './Footer';
 import DownloadButton from './DownloadButton';
 

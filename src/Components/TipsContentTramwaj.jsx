@@ -1,5 +1,5 @@
 import Footer from './Footer';
-import '/src/App.css'
+import '../App.css';
 import Navbar_white from './Navbar_white';
 
 export default function TipsContentTramwaj() {

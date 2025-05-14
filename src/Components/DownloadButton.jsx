@@ -1,21 +1,3 @@
-// import { saveAs } from 'file-saver';
-
-// function DownloadButton() {
-//   const handleDownload = () => {
-//     const fileUrl = 'https://i.pinimg.com/736x/c6/fd/ac/c6fdacd1d06e4e5bddb41ec510193905.jpg';
-//     saveAs(fileUrl, 'legenda.jpg');
-//   };
-
-//   return (
-//     <button className='downloadBtn'  onClick={handleDownload}>
-//       Pobierz szczegóły
-//     </button>
-//   );
-// }
-
-// export default DownloadButton;
-
-
 import { saveAs } from 'file-saver';
 
 function DownloadButton() {

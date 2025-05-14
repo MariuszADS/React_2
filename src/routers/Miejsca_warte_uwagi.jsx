@@ -4,6 +4,7 @@ import Navbar_white from '../Components/Navbar_white';
 import Footer from '../Components/Footer';
 import { miejsca } from '../data/miejsca';
 import Miejsce from '../Components/Miejsce';
+import '../App.css'
 
 const Miejsca_warte_uwagi = () => {
   return (
@@ -18,8 +19,7 @@ const Miejsca_warte_uwagi = () => {
         ))}
         
       </div>
-      <div className='f'><Footer /></div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
