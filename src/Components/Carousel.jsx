@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import PropTypes from "prop-types";
@@ -16,7 +17,7 @@ export default function Carousel({ data, children }) {
   return (
     <div className="carousel-container">
       <div className="carousel">
-        <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" />
+        <BsArrowLeftCircleFill onClick={prevSlide} data-testid="arrow-left" className="arrow arrow-left" />
         {data.map((slide, idx) => (
           <img
             key={idx}
@@ -25,7 +26,7 @@ export default function Carousel({ data, children }) {
             className={slideIndex === idx ? "slide" : "slide slide-hidden"}
           />
         ))}
-        <BsArrowRightCircleFill onClick={nextSlide} className="arrow arrow-right" />
+        <BsArrowRightCircleFill onClick={nextSlide} data-testid="arrow-right" className="arrow arrow-right" />
         <span className="indicators">
           {data.map((_, idx) => (
             <button

@@ -1,4 +1,5 @@
 
+import React from 'react';
 import SmallLogo from '../Components/SmallLogo';
 import Navbar_white from '../Components/Navbar_white';
 import Footer from '../Components/Footer';

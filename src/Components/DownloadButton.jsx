@@ -1,11 +1,12 @@
 import { saveAs } from 'file-saver';
+import React from 'react';
 
 function DownloadButton() {
   const handleDownload = async () => {
     console.log('Pobieranie pliku lokalnego...');
 
     try {
-      const response = await fetch('/public/downloads/legenda_metro_pociac.pdf');
+      const response = await fetch('/downloads/legenda_metro_pociac.pdf');
       if (!response.ok) throw new Error('Nie udało się pobrać lokalnego pliku');
 
       const blob = await response.blob();

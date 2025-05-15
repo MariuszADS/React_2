@@ -1,9 +1,10 @@
+import React from 'react';
 import PropTypes from "prop-types";
 import Carousel from "./Carousel";
 
 export default function Miejsce({ miejsce }) {
   return (
-    <div className="miejsce">
+    <div className="miejsce" data-testid="miejsce-element">
       <Carousel data={miejsce.images}>
         <h2>{miejsce.title}</h2>
         <p>{miejsce.description}</p>

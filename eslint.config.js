@@ -12,7 +12,7 @@ export default [
     files: ['**/*.{js,jsx}'],
     languageOptions: {
       ecmaVersion: 2020,
-      globals: globals.browser,
+      globals: globals.browser,...globals.node,
       parserOptions: {
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: true },
@@ -35,6 +35,8 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'react/jsx-uses-react': 'error',
+
     },
   },
 
@@ -45,6 +47,7 @@ export default [
       ecmaVersion: 2020,
       globals: {
         ...globals.browser,
+        ...globals.node,
         ...globals.jest, // ← dodaje test, expect, it, jest.fn() itd.
       },
       parserOptions: {
