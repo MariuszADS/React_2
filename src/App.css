@@ -460,6 +460,7 @@ html{
 .tipsContentFirst ,.liDownloadS,.headindSpecialDsecond{
 	font-size: 1rem;
 	/* margin: .5rem; */
+	/* line-height: 2rem; */
 	font-family: Inter;
 	color: white;
 }
@@ -473,17 +474,21 @@ html{
 .headindDownloadS, h3{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-weight: lighter;
-	font-size: 1.5rem;
+
+	/* font-weight: 400; */
+	font-size: 1.2rem;
 }
 .headindSpecialD,.headindSpecialDsecond{
 	color: #ff8800;
 	margin-left: 1rem;
 }
 .paragraphSpecialD{
+	/* width: 100%; */
 	font-family: Inter;
 	color: white;
 	font-size: 1rem;
 	margin: 1rem;
+	/* align-self: center; */
 	text-align:justify;
 }
 
@@ -1147,7 +1152,11 @@ html{
   .downloadS{
 	width: 50%;
   }
+  .logo{
+	opacity: 0;
+  }
 }
+
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .mapa_lini {

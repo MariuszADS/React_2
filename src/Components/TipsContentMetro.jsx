@@ -14,13 +14,17 @@ export default function TipsContentMetro() {
 			<section>
 				<ul  className="listS">
 					<li className='tipsContentFirst'>Pobrać	odpowiedna wersje aplikacji ponieważ inaczej nie kupimy biletu albo kupić 	kartę w punkcie ‘Ruter’ I ją doładowywać a następnie odbijać w danym numerze lini metra oraz nie sprawdzimy trasy żadnego transportu publiczengo </li>
+					<br/>
 					<li className='tipsContentFirst'>
 					Jeśli 	chodzi o stacje w centrum Oslo(Nationaltheatret,Jernbanetorget,Stortinget) pierwsze dwa 	przystanki dysponują dostępem do metra,pociągów,autobusów.
 					</li>
+					<br/>
 					<li className='tipsContentFirst'>
 					Wszystkie metra poruszają się w strefie pierwszej
 					</li>
+					<br/>
 					<li className='tipsContentFirst'>Legitimacje	studenckie(polskie) są honorowane przez aplikacje “Ruter”</li>
+					<br/>
 					<li className='tipsContentFirst'>w Oslo kursują zawsze dwa metra tej samej lini nr 5 ale jeżdżą w dwóch kierunkach. Mają one kierunek “Songsvann” oraz “Ringen via Tøyen”</li>
 				</ul>
 			</section>
@@ -41,7 +45,7 @@ export default function TipsContentMetro() {
 			<div className='specialD'>
 			<h3 className='headindSpecialD'>Sytuacje wyjątkowe:</h3>
 			<br/>
-			<p className='paragraphSpecialD'>W sytuacjach wyjątkowych takich jak ciągłe opóźnianie metra lub 	wstrzymanie ruchu na stacji jest zalecane śledzenie aplikacji 	“Ruter” oraz słuchanie komunikatów ze stacji. <br/>Kiedy ta 	sytuacja wpływa na nas w dotkliwy sposób np.Uniemożliwiony powrót do domu przez daną sytuacje I nie mamy możliwości innej 	jak ta , warto rozważyć zamówienie taksówki za którą<br/> “Ruter będzię zobligowany zapłacić za nią, po wysłaniu paragonu oraz opisaniu sytuacji”.</p>
+			<p className='paragraphSpecialD'>W sytuacjach wyjątkowych takich jak ciągłe opóźnianie metra lub 	wstrzymanie ruchu na stacji jest zalecane śledzenie aplikacji 	“Ruter” oraz słuchanie komunikatów ze stacji. <br/>Kiedy ta 	sytuacja wpływa na nas w dotkliwy sposób np.Uniemożliwiony powrót do domu przez daną sytuacje I nie mamy możliwości innej 	jak ta , warto rozważyć zamówienieparagraphSpecialD taksówki za którą  “Ruter będzię zobligowany zapłacić za nią, po wysłaniu paragonu oraz opisaniu sytuacji”.</p>
 			</div>
 
 			<h2 className='headindSpecialDsecond'><strong>Mandat za nie posiadanie biletu wynosi 1237kr na miejscu, gdy opłata zostanie uiszczona jest w poźniejszym terminie wynosi 1437kr.</strong></h2>

@@ -20,14 +20,13 @@ export default function TipsContentPociag() {
 						rodziców z wózkami,wagony ciszy(quite zone/stille wogn) warto
 						zwracać uwagę do jakiego wagonu mamy zamiar wejść.
 					</li>
+					<br/>
 					<li className='tipsContentFirst'>
 						Wagony też posiadają dużą naklejke na drzwiach (Valid ticket/Gyldig
 						billett) oznacza to ze trzeba mieć konieczenie bilet aktywny inaczej
 						czekają nas dodatkowe koszty za jego brak.
 					</li>
-					{/* <li className='tipsContentFirst'></li> */}
-							
-							
+					<br/>	
 					<h3 className='importantH'>Wyjątkowo:</h3>
 								
 					<li className='tipsContentFirst'>
@@ -39,6 +38,7 @@ export default function TipsContentPociag() {
 						rozwiniętej aplikacji pod względem informowania o nagłych zmianach
 						lub wstrzymaniach danego transportu itp.
 					</li>
+					<br/>
 					<li className='tipsContentFirst'>
 						Bardzo często aplikacja jest po prostru nie aktualizowania i musimy
 						obserwować tablice z odjazdami lub słuchać komunikatów, jeśli
@@ -63,16 +63,7 @@ export default function TipsContentPociag() {
 			<div className='specialD'>
 				<h3 className='headindSpecialD'>Sytuacje wyjątkowe:</h3>
 				<br />
-				<p className='paragraphSpecialD'>
-					W sytuacjach wyjątkowych takich jak ciągłe opóźnianie metra lub
-					wstrzymanie ruchu na stacji jest zalecane śledzenie aplikacji “Ruter”
-					oraz słuchanie komunikatów ze stacji. <br />
-					Kiedy ta sytuacja wpływa na nas w dotkliwy sposób np.Uniemożliwiony
-					powrót do domu przez daną sytuacje I nie mamy możliwości innej jak ta
-					, warto rozważyć zamówienie taksówki za którą
-					<br /> “Ruter będzię zobligowany zapłacić za nią, po wysłaniu paragonu
-					oraz opisaniu sytuacji”.
-				</p>
+				<p className='paragraphSpecialD'>W sytuacjach wyjątkowych takich jak ciągłe opóźnianie metra lub 	wstrzymanie ruchu na stacji jest zalecane śledzenie aplikacji 	“Ruter” oraz słuchanie komunikatów ze stacji. <br/>Kiedy ta 	sytuacja wpływa na nas w dotkliwy sposób np.Uniemożliwiony powrót do domu przez daną sytuacje I nie mamy możliwości innej 	jak ta , warto rozważyć zamówienie taksówki za którą “Ruter będzię zobligowany zapłacić za nią, po wysłaniu paragonu oraz opisaniu sytuacji”.</p>
 			</div>
 
 			<h2 className='headindSpecialDsecond'>
