@@ -1,23 +1,97 @@
-import React from "react";
-import { useState } from "react";
+// import React from "react";
+// import { useState } from "react";
+// import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
+// import PropTypes from "prop-types";
+
+// export default function Carousel({ data, children }) {
+//   const [slideIndex, setSlideIndex] = useState(0);
+
+//   const nextSlide = () => {
+//     setSlideIndex((prev) => (prev === data.length - 1 ? 0 : prev + 1));
+//   };
+
+//   const prevSlide = () => {
+//     setSlideIndex((prev) => (prev === 0 ? data.length - 1 : prev - 1));
+//   };
+
+//   return (
+//     <div className="carousel-container">
+//       <div className="carousel">
+//         <BsArrowLeftCircleFill onClick={prevSlide} data-testid="arrow-left" className="arrow arrow-left" />
+//         {data.map((slide, idx) => (
+//           <img
+//             key={idx}
+//             src={slide.src}
+//             alt={slide.alt}
+//             className={slideIndex === idx ? "slide" : "slide slide-hidden"}
+//           />
+//         ))}
+//         <BsArrowRightCircleFill onClick={nextSlide} data-testid="arrow-right" className="arrow arrow-right" />
+//         <span className="indicators">
+//           {data.map((_, idx) => (
+//             <button
+//               key={idx}
+//               className={slideIndex === idx ? "indicator" : "indicator indicator-inactive"}
+//               onClick={() => setSlideIndex(idx)}
+//             />
+//           ))}
+//         </span>
+//       </div>
+//       <div className="carousel-text">
+//         {children}
+//       </div>
+//     </div>
+//   );
+// }
+
+// Carousel.propTypes = {
+//   data: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       src: PropTypes.string.isRequired,
+//       alt: PropTypes.string.isRequired
+//     })
+//   ).isRequired,
+//   children: PropTypes.node
+// };
+
+
+import React, { useState, useRef } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import PropTypes from "prop-types";
 
 export default function Carousel({ data, children }) {
   const [slideIndex, setSlideIndex] = useState(0);
+  const isThrottled = useRef(false); // blokada kliknięcia
+
+  const throttleClick = (callback) => {
+    if (isThrottled.current) return;
+    isThrottled.current = true;
+    callback();
+    setTimeout(() => {
+      isThrottled.current = false;
+    }, 300); // czas dopasuj do długości animacji, jeśli jest
+  };
 
   const nextSlide = () => {
-    setSlideIndex((prev) => (prev === data.length - 1 ? 0 : prev + 1));
+    throttleClick(() =>
+      setSlideIndex((prev) => (prev === data.length - 1 ? 0 : prev + 1))
+    );
   };
 
   const prevSlide = () => {
-    setSlideIndex((prev) => (prev === 0 ? data.length - 1 : prev - 1));
+    throttleClick(() =>
+      setSlideIndex((prev) => (prev === 0 ? data.length - 1 : prev - 1))
+    );
   };
 
   return (
     <div className="carousel-container">
       <div className="carousel">
-        <BsArrowLeftCircleFill onClick={prevSlide} data-testid="arrow-left" className="arrow arrow-left" />
+        <BsArrowLeftCircleFill
+          onClick={prevSlide}
+          data-testid="arrow-left"
+          className="arrow arrow-left"
+        />
         {data.map((slide, idx) => (
           <img
             key={idx}
@@ -26,20 +100,24 @@ export default function Carousel({ data, children }) {
             className={slideIndex === idx ? "slide" : "slide slide-hidden"}
           />
         ))}
-        <BsArrowRightCircleFill onClick={nextSlide} data-testid="arrow-right" className="arrow arrow-right" />
+        <BsArrowRightCircleFill
+          onClick={nextSlide}
+          data-testid="arrow-right"
+          className="arrow arrow-right"
+        />
         <span className="indicators">
           {data.map((_, idx) => (
             <button
               key={idx}
-              className={slideIndex === idx ? "indicator" : "indicator indicator-inactive"}
+              className={
+                slideIndex === idx ? "indicator" : "indicator indicator-inactive"
+              }
               onClick={() => setSlideIndex(idx)}
             />
           ))}
         </span>
       </div>
-      <div className="carousel-text">
-        {children}
-      </div>
+      <div className="carousel-text">{children}</div>
     </div>
   );
 }
@@ -48,8 +126,8 @@ Carousel.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
       src: PropTypes.string.isRequired,
-      alt: PropTypes.string.isRequired
+      alt: PropTypes.string.isRequired,
     })
   ).isRequired,
-  children: PropTypes.node
+  children: PropTypes.node,
 };

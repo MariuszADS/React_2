@@ -6,6 +6,7 @@ export default function TipsContentPociag() {
 	return (
 		<div className='positionD'>
 			<Navbar_white />
+			{/* <Navbar_white /> */}
 			<h1 className='mainH'>Pociąg albo Tog</h1>
 			<h3 className='importantH'>
 				Na co należy zwrócić uwagę przy podróżowaniu pociągiem z aplikacja Ruter

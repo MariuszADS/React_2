@@ -1,6 +1,10 @@
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.getElementById('nav-links');
+export function setupHamburgerMenu() {
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
 
-hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('show');
-});
+  if (hamburger && navLinks) {
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  }
+}
