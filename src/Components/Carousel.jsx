@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 export default function Carousel({ data, children }) {
   const [slideIndex, setSlideIndex] = useState(0);
-  const isThrottled = useRef(false); /* blokada przed podwojnym kliknieciem */
+  const isThrottled = useRef(false); /* blokada */
 
   const throttleClick = (callback) => {
     if (isThrottled.current) return;

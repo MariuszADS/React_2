@@ -72,7 +72,7 @@ export const miejsca = [
   },
   {
     title: "Ekebergparken",
-    description: "Park z pięknymi rzeźbami i widokami na Oslo.",
+    description: "Park z pięknymi rzeźbami i widokami na Oslo.Dojazd tramwajem linii 18 do przystanku Ekebergparken.",
     images: [
       { src: ekebergparken_00, alt: "ekebergparken" },
       { src: ekebergparken_01, alt: "ekebergparken" },
@@ -127,7 +127,7 @@ export const miejsca = [
   },
   {
     title: "Tryvann Vinterpark",
-    description: "Ośrodek narciarski z trasami zjazdowymi. Dojazd linią metra nr 1 do stacji Voksenkollen, a następnie autobusem wahadłowym.",
+    description: "Ośrodek narciarski z trasami zjazdowymi. Dojazd linią metra nr 1 do stacji Voksenkollen, a następnie autobusem wahadłowym. Znajdujący się tóż w pobliżu Tryvannstua.",
     images: [
       { src: trynn_00, alt: "Vinterpark" },
       { src: trynn_01, alt: "Vinterpark" },
@@ -139,7 +139,7 @@ export const miejsca = [
   },
   {
     title: "Wyspy Oslofjordu",
-    description: "Miejsca do kąpieli i pikników. Promy linii 91–94 z Rådhusbrygge obsługiwane przez Oslo-Fergene.",
+    description: "Miejsca do kąpieli i pikników. Promy linii 91–94 z Rådhusbrygge obsługiwane przez Oslo-Fergene.W dzielnicy Aker Brygge można znaleźć przystanek promowy.",
     images: [
       { src: oslo_island_00, alt: "oslo_island" },
       { src: oslo_island_02, alt: "oslo_island" },
@@ -150,7 +150,7 @@ export const miejsca = [
   },
   {
     title: "Sognsvann",
-    description: "Popularne miejsce do spacerów, biegania i pikników. Dojazd linią metra nr 5 do stacji Sognsvann.",
+    description: "Popularne miejsce do spacerów, biegania i pikników. Dojazd linią metra nr 5 do stacji Sognsvann, kierunek Sognsvann.",
     images: [
       { src: sognsvann_00, alt: "sognsvann" },
       { src: sognsvann_01, alt: "sognsvann" },
