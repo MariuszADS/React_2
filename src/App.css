@@ -646,6 +646,13 @@ html{
 		font-weight: 500;
 	}
 
+	.transport_icon{
+		position: relative;
+		top: 0.5rem;
+		left: .5rem;
+		width: 2rem;
+		height: auto;
+	}
 
 
 

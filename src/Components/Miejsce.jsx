@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from "prop-types";
 import Carousel from "./Carousel";
+// import icon_B from "../assets/icons/icon_B.jpg";  
 
 export default function Miejsce({ miejsce }) {
   return (
     <div className="miejsce" data-testid="miejsce-element">
       <Carousel data={miejsce.images}>
-        <h2>{miejsce.title}</h2>
+        <h2>{miejsce.title} {miejsce.transportIcon && (
+    <img src={miejsce.transportIcon} className='transport_icon' alt="transport"/>)}</h2>
+        <h2>{miejsce.imageTransport}</h2>
         <p>{miejsce.description}</p>
       </Carousel>
     </div>
@@ -22,9 +25,11 @@ Miejsce.propTypes = {
       })
     ).isRequired,
     title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired
+    description: PropTypes.string.isRequired,
+    transportIcon: PropTypes.string 
   }).isRequired
 };
+
 
 // import PropTypes from "prop-types";
 // import Carousel from "./Carousel";

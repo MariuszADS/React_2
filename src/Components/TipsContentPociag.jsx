@@ -31,8 +31,7 @@ export default function TipsContentPociag() {
 								
 					<li className='tipsContentFirst'>
 						Kiedy sytuacja wymaga wstrzymania transportu publiczengo jakim są
-						pociągi z firm „Ruter” i „Vy” oraz „Flytoget”(pendolino) albo
-						„Brakar”, zaraz do godziny jest organiozwany pierwszy najszybczy
+						pociągi z firm „Ruter” i „Vy” oraz „Flytoget”(pendolino), zaraz do godziny jest organiozwany pierwszy najszybczy
 						możliwy transport, najczęściej są to autobusy. Przejeżdżają one
 						przez te same miasta tak jak autobusy.Niestety „Ruter” nie ma dobrze
 						rozwiniętej aplikacji pod względem informowania o nagłych zmianach

@@ -15,8 +15,8 @@ export default function TipsContentAutobus() {
 					<br/>
 					<li className='tipsContentFirst'>W 	Norwegii jest przyjęte, że jeśli nie wychylimy się lub nie 	pomachamy kierowcy ten się na danym przystanku nie zatrzyma 	ponieważ nie ma takiego wymogu.</li>
 					<br/>
-					<li className='tipsContentFirst'>Bardzo 	ważne żeby kierowcy dać znać przyciskiem „STOP” bo 	przejedzie nas przystanek bez zastanowienia.</li>
-					<br/>
+					{/* <li className='tipsContentFirst'>Bardzo 	ważne żeby kierowcy dać znać przyciskiem „STOP” bo 	przejedzie nas przystanek bez zastanowienia.</li> */}
+					{/* <br/> */}
 					<li className='tipsContentFirst'>Kierowcy 	autobusów w Oslo kommune oraz 	Bærum kommune często 	jeżdżą nie ostrożnie i łatwo się można przewrócić, więc 	zalecane wstać kiedy autobus się zatrzyma.</li>
 				</ul>
 			</section>

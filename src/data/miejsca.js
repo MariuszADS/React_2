@@ -55,23 +55,17 @@ import oslo_island_00 from "../assets/img/zdjecia_miesjca/Wyspy_Oslofjord/oslo_i
 import oslo_island_02 from "../assets/img/zdjecia_miesjca/Wyspy_Oslofjord/oslo_island_02.JPG";
 import oslo_island_03 from "../assets/img/zdjecia_miesjca/Wyspy_Oslofjord/oslo_island_03.JPG";
 import oslo_island_04 from "../assets/img/zdjecia_miesjca/Wyspy_Oslofjord/oslo_island_04.JPG";
-import oslo_island_05 from "../assets/img/zdjecia_miesjca/Wyspy_Oslofjord/oslo_island_05.JPG";      
+import oslo_island_05 from "../assets/img/zdjecia_miesjca/Wyspy_Oslofjord/oslo_island_05.JPG";
+import icon_T from "../assets/icons/icon_T.png";
+import icon_B from "../assets/icons/icon_B.png";
+import icon_TR from "../assets/icons/icon_TR.png";
+import icon_BÅ from "../assets/icons/icon_BÅ.png";
+
 
 export const miejsca = [
   {
-    title: "Bygdøy",
-    description: "Półwysep z muzeami i plażami. Dojazd autobusem linii 30 do przystanku Bygdøynes.",
-    images: [
-      // { src: bygdoy_00, alt: "bygdoy" },
-      // { src: bygdoy_01, alt: "bygdoy" },
-      { src: bygdoy_02, alt: "bygdoy" },
-      { src: bygdoy_03, alt: "bygdoy" },
-      { src: bygdoy_04, alt: "bygdoy" },
-      { src: bygdoy_05, alt: "bygdoy" },
-    ]
-  },
-  {
     title: "Ekebergparken",
+    transportIcon:icon_TR,
     description: "Park z pięknymi rzeźbami i widokami na Oslo.Dojazd tramwajem linii 18 do przystanku Ekebergparken.",
     images: [
       { src: ekebergparken_00, alt: "ekebergparken" },
@@ -85,6 +79,7 @@ export const miejsca = [
   },
   {
     title: "Frogner Park",
+    transportIcon:icon_TR,
     description: "Znany z rzeźb Gustava Vigelanda, idealny na spacery i relaks. Dojazd tramwajem linii 12 do przystanku Vigelandsparken.",
     images: [
       { src: frogner_00, alt: "frogner park" },
@@ -98,7 +93,21 @@ export const miejsca = [
     ]
   },
   {
+    title: "Sognsvann",
+    transportIcon:icon_T,
+    description: "Popularne miejsce do spacerów, biegania i pikników. Dojazd linią metra nr 5 do stacji Sognsvann, kierunek Sognsvann.",
+    images: [
+      { src: sognsvann_00, alt: "sognsvann" },
+      { src: sognsvann_01, alt: "sognsvann" },
+      { src: sognsvann_02, alt: "sognsvann" },
+      { src: sognsvann_03, alt: "sognsvann" },
+      { src: sognsvann_04, alt: "sognsvann" },
+      { src: sognsvann_05, alt: "sognsvann" },
+    ]
+  },
+  {
     title: "Holmenkollen",
+    transportIcon:icon_T,
     description: "Skocznia narciarska z muzeum narciarstwa i panoramicznym widokiem na Oslo. Dojazd linią metra nr 1 do stacji Holmenkollen.",
     images: [
       { src: holmenkollen_00, alt: "holmenkollen" },
@@ -110,6 +119,7 @@ export const miejsca = [
   },
   {
     title: "Nordmarka",
+    transportIcon:icon_T,
     description: "Rozległy obszar leśny idealny do pieszych wędrówek, jazdy na rowerze i narciarstwa biegowego. Dojazd linią metra nr 1 do stacji Frognerseteren.",
     images: [
       { src: nordmarka_02, alt: "nordmarka" },
@@ -127,6 +137,7 @@ export const miejsca = [
   },
   {
     title: "Tryvann Vinterpark",
+    transportIcon:icon_T,
     description: "Ośrodek narciarski z trasami zjazdowymi. Dojazd linią metra nr 1 do stacji Voksenkollen, a następnie autobusem wahadłowym. Znajdujący się tóż w pobliżu Tryvannstua.",
     images: [
       { src: trynn_00, alt: "Vinterpark" },
@@ -139,6 +150,7 @@ export const miejsca = [
   },
   {
     title: "Wyspy Oslofjordu",
+    transportIcon:icon_BÅ,
     description: "Miejsca do kąpieli i pikników. Promy linii 91–94 z Rådhusbrygge obsługiwane przez Oslo-Fergene.W dzielnicy Aker Brygge można znaleźć przystanek promowy.",
     images: [
       { src: oslo_island_00, alt: "oslo_island" },
@@ -149,16 +161,18 @@ export const miejsca = [
     ]
   },
   {
-    title: "Sognsvann",
-    description: "Popularne miejsce do spacerów, biegania i pikników. Dojazd linią metra nr 5 do stacji Sognsvann, kierunek Sognsvann.",
+    src: icon_T,
+    title: "Bygdøy",
+    transportIcon:icon_B,
+    description: "Półwysep z muzeami i plażami. Dojazd autobusem linii 30 do przystanku Bygdøynes.",
     images: [
-      { src: sognsvann_00, alt: "sognsvann" },
-      { src: sognsvann_01, alt: "sognsvann" },
-      { src: sognsvann_02, alt: "sognsvann" },
-      { src: sognsvann_03, alt: "sognsvann" },
-      { src: sognsvann_04, alt: "sognsvann" },
-      { src: sognsvann_05, alt: "sognsvann" },
+      // { src: bygdoy_00, alt: "bygdoy" },
+      // { src: bygdoy_01, alt: "bygdoy" },
+      { src: bygdoy_02, alt: "bygdoy" },
+      { src: bygdoy_03, alt: "bygdoy" },
+      { src: bygdoy_04, alt: "bygdoy" },
+      { src: bygdoy_05, alt: "bygdoy" },
     ]
-  }
+  },
   
 ];

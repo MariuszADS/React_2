@@ -13,17 +13,17 @@ export default function TipsContentMetro() {
 			</h3>
 			<section>
 				<ul  className="listS">
-					<li className='tipsContentFirst'>Pobrać	odpowiedna wersje aplikacji ponieważ inaczej nie kupimy biletu albo kupić 	kartę w punkcie ‘Ruter’ I ją doładowywać a następnie odbijać w danym numerze lini metra oraz nie sprawdzimy trasy żadnego transportu publiczengo </li>
+					<li className='tipsContentFirst'>Pobrać	odpowiedna wersje aplikacji ponieważ inaczej nie kupimy biletu oraz nie sprawdzimy trasy żadnego transportu publiczengo  albo kupić 	kartę w punkcie ‘Ruter’ I ją doładowywać a następnie odbijać w danym numerze lini metra  </li>
 					<br/>
 					<li className='tipsContentFirst'>
 					Jeśli 	chodzi o stacje w centrum Oslo(Nationaltheatret,Jernbanetorget,Stortinget) pierwsze dwa 	przystanki dysponują dostępem do metra,pociągów,autobusów.
 					</li>
 					<br/>
 					<li className='tipsContentFirst'>
-					Wszystkie metra poruszają się w strefie pierwszej
+					Wszystkie metra poruszają się w strefie pierwszej, z wyjątkiem merta nr 3 lecz bilet na metro nr 3 jest taki sam jak na inne metra.
 					</li>
 					<br/>
-					<li className='tipsContentFirst'>Legitimacje	studenckie(polskie) są honorowane przez aplikacje “Ruter”</li>
+					<li className='tipsContentFirst'>Legitimacje studenckie(polskie) są honorowane przez aplikacje “Ruter”</li>
 					<br/>
 					<li className='tipsContentFirst'>w Oslo kursują zawsze dwa metra tej samej lini nr 5 ale jeżdżą w dwóch kierunkach. Mają one kierunek “Songsvann” oraz “Ringen via Tøyen”</li>
 				</ul>
