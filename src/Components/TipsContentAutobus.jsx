@@ -24,7 +24,7 @@ export default function TipsContentAutobus() {
 				<h3 className='headindDownloadS'>
 				Rozkład lini autobusów w obrębie Oslo
 				</h3>
-				    <img src='/src/assets/img/mapa_autobus.jpg' className='mapa_autobusow'/>
+				    <img src='/public/mapy/mapa_autobus.jpg' className='mapa_autobusow'/>
 
             </section>
 			

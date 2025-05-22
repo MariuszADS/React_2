@@ -49,7 +49,7 @@ export default function TipsContentPociag() {
 				<h3 className='headindDownloadS'>
 					Rozkład lini pociągów w obrębie Oslo
 				</h3>
-				<img src='/src/assets/img/mapa_pociagow.jpg' className='mapa_pociagi' />
+				<img src='/public/mapy/mapa_pociagow.jpg' className='mapa_pociagi' />
 				
 				<h3 className='importantH'>
 						Szczegóły odnośnie metra i pociągów do pobrania poniżej:

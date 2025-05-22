@@ -21,7 +21,7 @@ export default function TipsContentTramwaj() {
 				<h3 className='headindDownloadS'>
 				Rozkład lini tramwajów w obrębie Oslo
 				</h3>
-				    <img src='/src/assets/img/image 18.jpg' className='mapa_lini_tramwajow'/>
+				    <img src='/public/mapy/image 18.jpg' className='mapa_lini_tramwajow'/>
 
             </section>
 			
