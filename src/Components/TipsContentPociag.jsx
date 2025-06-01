@@ -2,6 +2,7 @@ import '../App.css'
 import Navbar_white from './Navbar_white';
 import Footer from './Footer';
 import DownloadButton from './DownloadButton';
+import tog from '/mapy/mapa_pociagow.jpg'
 export default function TipsContentPociag() {
 	return (
 		<div className='positionD'>
@@ -15,33 +16,22 @@ export default function TipsContentPociag() {
 			<section>
 				<ul className='listS'>
 					<li className='tipsContentFirst'>
-						
-						Wagony mają swoje oznaczenia jako zwykłe, dla niepełnosprawnych,
-						rodziców z wózkami,wagony ciszy(quite zone/stille wogn) warto
-						zwracać uwagę do jakiego wagonu mamy zamiar wejść.
+						Wagony mają swoje oznaczenia jako zwykłe, dla osób z niepełnosprawnościami, rodziców z wózkami dziecięcymi oraz jako wagony ciszy (quiet zone / stille vogn). Warto zwracać uwagę, do którego wagonu zamierzamy wejść.
 					</li>
 					<br/>
 					<li className='tipsContentFirst'>
-						Wagony też posiadają dużą naklejke na drzwiach (Valid ticket/Gyldig
-						billett) oznacza to ze trzeba mieć konieczenie bilet aktywny inaczej
-						czekają nas dodatkowe koszty za jego brak.
+						Wagony posiadają również dużą naklejkę na drzwiach (Valid ticket / Gyldig billett), co oznacza, że musimy mieć aktywny bilet  w przeciwnym razie grożą nam dodatkowe opłaty.
 					</li>
 					<br/>	
 					<h3 className='importantH'>Wyjątkowo:</h3>
 								
 					<li className='tipsContentFirst'>
-						Kiedy sytuacja wymaga wstrzymania transportu publiczengo jakim są
-						pociągi z firm „Ruter” i „Vy” oraz „Flytoget”(pendolino), zaraz do godziny jest organiozwany pierwszy najszybczy
-						możliwy transport, najczęściej są to autobusy. Przejeżdżają one
-						przez te same miasta tak jak autobusy.Niestety „Ruter” nie ma dobrze
-						rozwiniętej aplikacji pod względem informowania o nagłych zmianach
-						lub wstrzymaniach danego transportu itp.
+						Gdy dochodzi do wstrzymania transportu publicznego, np. pociągów obsługiwanych przez firmy Ruter, Vy lub Flytoget (pendolino), zazwyczaj w ciągu godziny organizowany jest najszybszy możliwy transport zastępczy najczęściej w postaci autobusów. Przejeżdżają one przez te same miejscowości, co pociągi.
+						Niestety, aplikacja Ruter nie jest dobrze rozwinięta pod względem informowania o nagłych zmianach lub wstrzymaniach poszczególnych środków transportu.
 					</li>
 					<br/>
 					<li className='tipsContentFirst'>
-						Bardzo często aplikacja jest po prostru nie aktualizowania i musimy
-						obserwować tablice z odjazdami lub słuchać komunikatów, jeśli
-						kupiliśmy w tym czasie bilet na pociąg niestety on przepada.
+						Bardzo często aplikacja nie jest aktualizowana na bieżąco, dlatego należy obserwować tablice odjazdów na stacji lub słuchać komunikatów. Jeśli w takim momencie kupiliśmy bilet na pociąg, niestety nie podlega on zwrotowi.
 					</li>
 				</ul>
 			</section>
@@ -49,7 +39,7 @@ export default function TipsContentPociag() {
 				<h3 className='headindDownloadS'>
 					Rozkład lini pociągów w obrębie Oslo
 				</h3>
-				<img src='/public/mapy/mapa_pociagow.jpg' className='mapa_pociagi' />
+				<img src={tog} className='mapa_pociagi' />
 				
 				<h3 className='importantH'>
 						Szczegóły odnośnie metra i pociągów do pobrania poniżej:
@@ -62,7 +52,8 @@ export default function TipsContentPociag() {
 			<div className='specialD'>
 				<h3 className='headindSpecialD'>Sytuacje wyjątkowe:</h3>
 				<br />
-				<p className='paragraphSpecialD'>W sytuacjach wyjątkowych takich jak ciągłe opóźnianie metra lub 	wstrzymanie ruchu na stacji jest zalecane śledzenie aplikacji 	“Ruter” oraz słuchanie komunikatów ze stacji. <br/>Kiedy ta 	sytuacja wpływa na nas w dotkliwy sposób np.Uniemożliwiony powrót do domu przez daną sytuacje I nie mamy możliwości innej 	jak ta , warto rozważyć zamówienie taksówki za którą “Ruter będzię zobligowany zapłacić za nią, po wysłaniu paragonu oraz opisaniu sytuacji”.</p>
+				<p className='paragraphSpecialD'>W sytuacjach wyjątkowych, takich jak ciągłe opóźnienia metra lub wstrzymanie ruchu na stacji, zaleca się śledzenie aplikacji „Ruter” oraz słuchanie komunikatów ze stacji.<br/>
+				Jeśli sytuacja wpływa na nas w dotkliwy sposób, np. uniemożliwia powrót do domu i nie mamy żadnej innej alternatywy, warto rozważyć zamówienie taksówki, za którą „Ruter” może być zobligowany zapłacić  po przesłaniu paragonu oraz opisie sytuacji.</p>
 			</div>
 
 			<h2 className='headindSpecialDsecond'>

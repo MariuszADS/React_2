@@ -437,7 +437,7 @@ html{
 	height: 33rem;
 	width: auto;
 	border-radius: 2rem;
-	scale: .6;
+	scale: .8;
 }
 .mapa_autobusow{
 	height: 42rem;
@@ -680,6 +680,7 @@ html{
 		  .mapa_pociagi {
 			height: 18rem;
 			width: auto;
+			scale: 0.9;
 		  }
 		  .mapa_autobusow {
 			height: 32rem;

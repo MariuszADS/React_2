@@ -2,6 +2,7 @@ import '../App.css'
 import Navbar_white from './Navbar_white';
 import Footer from './Footer';
 import DownloadButton from './DownloadButton';
+import tbane from'/mapy/mapa_lini_metra.png'
 
 export default function TipsContentMetro() {
 	return (
@@ -13,26 +14,26 @@ export default function TipsContentMetro() {
 			</h3>
 			<section>
 				<ul  className="listS">
-					<li className='tipsContentFirst'>Pobrać	odpowiedna wersje aplikacji ponieważ inaczej nie kupimy biletu oraz nie sprawdzimy trasy żadnego transportu publiczengo  albo kupić 	kartę w punkcie ‘Ruter’ I ją doładowywać a następnie odbijać w danym numerze lini metra  </li>
+					<li className='tipsContentFirst'>Pobierz odpowiednią wersję aplikacji, ponieważ inaczej nie kupisz biletu ani nie sprawdzisz trasy żadnego transportu publicznego. Możesz też kupić kartę w punkcie „Ruter” i ją doładowywać, a następnie odbijać w danym numerze linii metra.</li>
 					<br/>
 					<li className='tipsContentFirst'>
-					Jeśli 	chodzi o stacje w centrum Oslo(Nationaltheatret,Jernbanetorget,Stortinget) pierwsze dwa 	przystanki dysponują dostępem do metra,pociągów,autobusów.
+					Jeśli chodzi o stacje w centrum Oslo (Nationaltheatret, Jernbanetorget, Stortinget), pierwsze dwie z nich mają dostęp do metra, pociągów i autobusów.
 					</li>
 					<br/>
 					<li className='tipsContentFirst'>
-					Wszystkie metra poruszają się w strefie pierwszej, z wyjątkiem merta nr 3 lecz bilet na metro nr 3 jest taki sam jak na inne metra.
+					Wszystkie linie metra poruszają się w strefie pierwszej, z wyjątkiem linii nr 3, lecz bilet na nią jest taki sam jak na pozostałe.
 					</li>
 					<br/>
-					<li className='tipsContentFirst'>Legitimacje studenckie(polskie) są honorowane przez aplikacje “Ruter”</li>
+					<li className='tipsContentFirst'>Polskie legitymacje studenckie są honorowane przez aplikację „Ruter”.</li>
 					<br/>
-					<li className='tipsContentFirst'>w Oslo kursują zawsze dwa metra tej samej lini nr 5 ale jeżdżą w dwóch kierunkach. Mają one kierunek “Songsvann” oraz “Ringen via Tøyen”</li>
+					<li className='tipsContentFirst'>W Oslo kursują zawsze dwa metra linii nr 5, jadące w przeciwnych kierunkach. Mają one oznaczenia „Songsvann” oraz „Ringen via Tøyen”.</li>
 				</ul>
 			</section>
 			<section className="downloadS">
 				<h3 className='headindDownloadS'>
 				Rozkład lini metra w obrębie Oslo
 				</h3>
-				    <img src='/public/mapy/mapa_lini_metra.png' className='mapa_lini'/>
+				    <img src={tbane} className='mapa_lini'/>
                         <h3 className='headindDownloadS'>
 						Szczegóły odnośnie metra i pociągów do pobrania poniżej:
                         </h3>
@@ -45,7 +46,8 @@ export default function TipsContentMetro() {
 			<div className='specialD'>
 			<h3 className='headindSpecialD'>Sytuacje wyjątkowe:</h3>
 			<br/>
-			<p className='paragraphSpecialD'>W sytuacjach wyjątkowych takich jak ciągłe opóźnianie metra lub 	wstrzymanie ruchu na stacji jest zalecane śledzenie aplikacji 	“Ruter” oraz słuchanie komunikatów ze stacji. <br/>Kiedy ta 	sytuacja wpływa na nas w dotkliwy sposób np.Uniemożliwiony powrót do domu przez daną sytuacje I nie mamy możliwości innej 	jak ta , warto rozważyć zamówienieparagraphSpecialD taksówki za którą  “Ruter będzię zobligowany zapłacić za nią, po wysłaniu paragonu oraz opisaniu sytuacji”.</p>
+			<p className='paragraphSpecialD'>W sytuacjach wyjątkowych, takich jak ciągłe opóźnienia metra lub wstrzymanie ruchu na stacji, zaleca się śledzenie aplikacji „Ruter” oraz słuchanie komunikatów ze stacji.<br/>
+			Jeśli sytuacja wpływa na nas w dotkliwy sposób, np. uniemożliwia powrót do domu i nie mamy żadnej innej alternatywy, warto rozważyć zamówienie taksówki, za którą „Ruter” może być zobligowany zapłacić  po przesłaniu paragonu oraz opisie sytuacji.</p>
 			</div>
 
 			<h2 className='headindSpecialDsecond'><strong>Mandat za nie posiadanie biletu wynosi 1237kr na miejscu, gdy opłata zostanie uiszczona jest w poźniejszym terminie wynosi 1437kr.</strong></h2>
