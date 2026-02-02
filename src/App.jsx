@@ -4,9 +4,9 @@ import BigLogo from './Components/BigLogo';
 import NavbarFront from './Components/Navbar';
 import Footer from './Components/Footer'
 
-
-
 function App() {
+
+
 	return (
 		<div>
 			<img className='BackGround_img' src={oslo} />

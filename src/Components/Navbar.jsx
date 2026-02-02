@@ -1,8 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../css/mobile_hamburger.css';
+// import { useTranslation } from 'i18n-js';
+
 
 const NavbarFront = () => {
+  // const {t} = useTranslation()
+
   return (
     <nav className="top-nav">
       <input id="menu-toggle" type="checkbox" />
