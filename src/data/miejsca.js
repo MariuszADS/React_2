@@ -3,7 +3,7 @@
 // import bygdoy_01 from "../assets/img/zdjecia_miesjca/Bygdøy/bygdoy_01.JPG";
 import bygdoy_02 from "../assets/img/zdjecia_miesjca/Bygdøy/bygdoy_02.JPG";
 import bygdoy_03 from "../assets/img/zdjecia_miesjca/Bygdøy/bygdoy_museum_holocaust_00.JPG";
-import bygdoy_04 from "../assets/img/zdjecia_miesjca/Bygdøy/bygdoy_museum_holocaust_01.JPG"; 
+import bygdoy_04 from "../assets/img/zdjecia_miesjca/Bygdøy/bygdoy_museum_holocaust_01.JPG";
 import bygdoy_05 from "../assets/img/zdjecia_miesjca/Bygdøy/vigingskihuset_00.JPG";
 import ekebergparken_00 from "../assets/img/zdjecia_miesjca/Ekebergparken/ekebergparken_00.JPG";
 import ekebergparken_01 from "../assets/img/zdjecia_miesjca/Ekebergparken/ekebergparken_01.JPG";
@@ -34,7 +34,7 @@ import nordmarka_05 from "../assets/img/zdjecia_miesjca/nordmarka/nordmarka_05.J
 import nordmarka_06 from "../assets/img/zdjecia_miesjca/nordmarka/nordmarka_06.JPG";
 import nordmarka_07 from "../assets/img/zdjecia_miesjca/nordmarka/nordmarka_07.JPG";
 import nordmarka_08 from "../assets/img/zdjecia_miesjca/nordmarka/nordmarka_08.JPG";
-import nordmarka_09 from "../assets/img/zdjecia_miesjca/nordmarka/nordmarka_09.JPG"; 
+import nordmarka_09 from "../assets/img/zdjecia_miesjca/nordmarka/nordmarka_09.JPG";
 import nordmarka_010 from "../assets/img/zdjecia_miesjca/nordmarka/nordmarka_010.JPG";
 import nordmarka_011 from "../assets/img/zdjecia_miesjca/nordmarka/nordmarka_011.JPG";
 import nordmarka_012 from "../assets/img/zdjecia_miesjca/nordmarka/nordmarka_012.JPG";
@@ -60,13 +60,20 @@ import icon_T from "../assets/icons/icon_T.png";
 import icon_B from "../assets/icons/icon_B.png";
 import icon_TR from "../assets/icons/icon_TR.png";
 import icon_BÅ from "../assets/icons/icon_BÅ.png";
+import { useTranslation } from 'react-i18next';
+import pl from "../i18n/locales/pl.json"
 
 
-export const miejsca = [
+
+export const miejsca= () => {
+ const { t } = useTranslation()
+
+  return [
   {
     title: "Ekebergparken",
-    transportIcon:icon_TR,
+    transportIcon: icon_TR,
     description: "Park z pięknymi rzeźbami i widokami na Oslo.Dojazd tramwajem linii 18 do przystanku Ekebergparken.",
+    descriptionKey:t("ekebergparken"),
     images: [
       { src: ekebergparken_00, alt: "ekebergparken" },
       { src: ekebergparken_01, alt: "ekebergparken" },
@@ -79,7 +86,7 @@ export const miejsca = [
   },
   {
     title: "Frogner Park",
-    transportIcon:icon_TR,
+    transportIcon: icon_TR,
     description: "Znany z rzeźb Gustava Vigelanda, idealny na spacery i relaks. Dojazd tramwajem linii 12 do przystanku Vigelandsparken.",
     images: [
       { src: frogner_00, alt: "frogner park" },
@@ -94,7 +101,7 @@ export const miejsca = [
   },
   {
     title: "Sognsvann",
-    transportIcon:icon_T,
+    transportIcon: icon_T,
     description: "Popularne miejsce do spacerów, biegania i pikników. Dojazd linią metra nr 5 do stacji Sognsvann, kierunek Sognsvann.",
     images: [
       { src: sognsvann_00, alt: "sognsvann" },
@@ -107,7 +114,7 @@ export const miejsca = [
   },
   {
     title: "Holmenkollen",
-    transportIcon:icon_T,
+    transportIcon: icon_T,
     description: "Skocznia narciarska z muzeum narciarstwa i panoramicznym widokiem na Oslo. Dojazd linią metra nr 1 do stacji Holmenkollen.",
     images: [
       { src: holmenkollen_00, alt: "holmenkollen" },
@@ -119,7 +126,7 @@ export const miejsca = [
   },
   {
     title: "Nordmarka",
-    transportIcon:icon_T,
+    transportIcon: icon_T,
     description: "Rozległy obszar leśny idealny do pieszych wędrówek, jazdy na rowerze i narciarstwa biegowego. Dojazd linią metra nr 1 do stacji Frognerseteren.",
     images: [
       { src: nordmarka_02, alt: "nordmarka" },
@@ -137,7 +144,7 @@ export const miejsca = [
   },
   {
     title: "Tryvann Vinterpark",
-    transportIcon:icon_T,
+    transportIcon: icon_T,
     description: "Ośrodek narciarski z trasami zjazdowymi. Dojazd linią metra nr 1 do stacji Voksenkollen, a następnie autobusem wahadłowym. Znajdujący się tóż w pobliżu Tryvannstua.",
     images: [
       { src: trynn_00, alt: "Vinterpark" },
@@ -150,7 +157,7 @@ export const miejsca = [
   },
   {
     title: "Wyspy Oslofjordu",
-    transportIcon:icon_BÅ,
+    transportIcon: icon_BÅ,
     description: "Miejsca do kąpieli i pikników. Promy linii 91–94 z Rådhusbrygge obsługiwane przez Oslo-Fergene.W dzielnicy Aker Brygge można znaleźć przystanek promowy.",
     images: [
       { src: oslo_island_00, alt: "oslo_island" },
@@ -163,16 +170,17 @@ export const miejsca = [
   {
     src: icon_T,
     title: "Bygdøy",
-    transportIcon:icon_B,
+    transportIcon: icon_B,
     description: "Półwysep z muzeami i plażami. Dojazd autobusem linii 30 do przystanku Bygdøynes.",
     images: [
-      // { src: bygdoy_00, alt: "bygdoy" },
-      // { src: bygdoy_01, alt: "bygdoy" },
       { src: bygdoy_02, alt: "bygdoy" },
       { src: bygdoy_03, alt: "bygdoy" },
       { src: bygdoy_04, alt: "bygdoy" },
       { src: bygdoy_05, alt: "bygdoy" },
     ]
   },
-  
+
 ];
+
+} 
+

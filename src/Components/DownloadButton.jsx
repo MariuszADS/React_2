@@ -1,7 +1,12 @@
 import { saveAs } from 'file-saver';
 import React from 'react';
+import {useTranslation} from "react-i18next" 
+// import { useTranslation } from 'react-i18next';
 
 function DownloadButton() {
+
+  const {t} = useTranslation()
+
   const handleDownload = async () => {
     console.log('Pobieranie pliku lokalnego...');
 
@@ -19,7 +24,7 @@ function DownloadButton() {
 
   return (
     <button onClick={handleDownload} className="downloadBtn">
-      Pobierz
+      {t("download_btn")}
     </button>
   );
 }

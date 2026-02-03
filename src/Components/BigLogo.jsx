@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 const BigLogo = () => {
+
+	const {t} =useTranslation()
 	return (
 		<div className='BigLogo'>
 			<div className="main_logo">
@@ -7,7 +11,7 @@ const BigLogo = () => {
 			<span className='logo_part_nabo'>nabo</span>
 			</div>
 			<p className='bgc_logo_par'>
-			Celem jest dostarczenie informacji przydatnych turystom, mieszkańcom Oslo oraz sąsiednich miastach.
+			{t("goal")}
 			</p>
 		</div>
 	);

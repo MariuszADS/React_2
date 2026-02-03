@@ -2,54 +2,55 @@ import '../App.css'
 import Navbar_white from './Navbar_white';
 import Footer from './Footer';
 import DownloadButton from './DownloadButton';
+import { useTranslation } from 'react-i18next';
 
 export default function TipsContentMetro() {
+
+	const { t } = useTranslation()
+
 	return (
 		<div className='positionD'>
-			<Navbar_white/>
-			<h1 className="mainH">Metro albo T-bane</h1>
+			<Navbar_white />
+			<h1 className="mainH">{t("metro_tbane")}</h1>
 			<h3 className="importantH">
-			Na co należy zwrócić uwagę przy podróżowaniu metrem z aplikacja Ruter # :
+				{t("look_at_metro")}
 			</h3>
 			<section>
-				<ul  className="listS">
-					<li className='tipsContentFirst'>Pobrać	odpowiedna wersje aplikacji ponieważ inaczej nie kupimy biletu oraz nie sprawdzimy trasy żadnego transportu publiczengo  albo kupić 	kartę w punkcie ‘Ruter’ I ją doładowywać a następnie odbijać w danym numerze lini metra  </li>
-					<br/>
-					<li className='tipsContentFirst'>
-					Jeśli 	chodzi o stacje w centrum Oslo(Nationaltheatret,Jernbanetorget,Stortinget) pierwsze dwa 	przystanki dysponują dostępem do metra,pociągów,autobusów.
+				<ul className="listS">
+					<li className='tipsContentFirst'>{t("tip_0")}  </li>
+					<br />
+					<li className='tipsContentFirst'>{t("tip_1")}
 					</li>
-					<br/>
-					<li className='tipsContentFirst'>
-					Wszystkie metra poruszają się w strefie pierwszej, z wyjątkiem merta nr 3 lecz bilet na metro nr 3 jest taki sam jak na inne metra.
+					<br />
+					<li className='tipsContentFirst'>{t("tip_2")}
 					</li>
-					<br/>
-					<li className='tipsContentFirst'>Legitimacje studenckie(polskie) są honorowane przez aplikacje “Ruter”</li>
-					<br/>
-					<li className='tipsContentFirst'>w Oslo kursują zawsze dwa metra tej samej lini nr 5 ale jeżdżą w dwóch kierunkach. Mają one kierunek “Songsvann” oraz “Ringen via Tøyen”</li>
+					<br />
+					<li className='tipsContentFirst'>{t("tip_3")}</li>
+					<br />
+					<li className='tipsContentFirst'>{t("tip_4")}</li>
 				</ul>
 			</section>
 			<section className="downloadS">
 				<h3 className='headindDownloadS'>
-				Rozkład lini metra w obrębie Oslo
+					{t("schedule_metro")}
 				</h3>
-				    <img src='/public/mapy/mapa_lini_metra.png' className='mapa_lini'/>
-                        <h3 className='headindDownloadS'>
-						Szczegóły odnośnie metra i pociągów do pobrania poniżej:
-                        </h3>
-                            <ul>
-                                <DownloadButton className='liDownloadS'>Metro_Oslo</DownloadButton>
-                            </ul>
+				<img src='/public/mapy/mapa_lini_metra.png' className='mapa_lini' />
+				<h3 className='headindDownloadS'>{t("details_metro")}
+				</h3>
+				<ul>
+					<DownloadButton className='liDownloadS'>Metro_Oslo</DownloadButton>
+				</ul>
 
-            </section>
-			
+			</section>
+
 			<div className='specialD'>
-			<h3 className='headindSpecialD'>Sytuacje wyjątkowe:</h3>
-			<br/>
-			<p className='paragraphSpecialD'>W sytuacjach wyjątkowych takich jak ciągłe opóźnianie metra lub 	wstrzymanie ruchu na stacji jest zalecane śledzenie aplikacji 	“Ruter” oraz słuchanie komunikatów ze stacji. <br/>Kiedy ta 	sytuacja wpływa na nas w dotkliwy sposób np.Uniemożliwiony powrót do domu przez daną sytuacje I nie mamy możliwości innej 	jak ta , warto rozważyć zamówienieparagraphSpecialD taksówki za którą  “Ruter będzię zobligowany zapłacić za nią, po wysłaniu paragonu oraz opisaniu sytuacji”.</p>
+				<h3 className='headindSpecialD'>{t("emergency")}</h3>
+				<br />
+				<p className='paragraphSpecialD'>{t("emergency_facility")}</p>
 			</div>
 
-			<h2 className='headindSpecialDsecond'><strong>Mandat za nie posiadanie biletu wynosi 1237kr na miejscu, gdy opłata zostanie uiszczona jest w poźniejszym terminie wynosi 1437kr.</strong></h2>
-			<Footer/>
+			<h2 className='headindSpecialDsecond'>{t("fine_info")}</h2>
+			<Footer />
 		</div>
 	);
 }

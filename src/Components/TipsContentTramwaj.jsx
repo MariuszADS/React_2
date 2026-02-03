@@ -1,37 +1,41 @@
 import Footer from './Footer';
 import '../App.css';
 import Navbar_white from './Navbar_white';
+import {useTranslation} from "react-i18next"
 
 export default function TipsContentTramwaj() {
+	
+	const {t} = useTranslation()
+
 	return (
 		<div className='positionD'>
 			<Navbar_white />
-			<h1 className="mainH">Tramwaj albo Trikk</h1>
+			<h1 className="mainH">{t("tramwaj_trikk")}</h1>
 			<h3 className="importantH">
-			Na co należy zwrócić uwagę przy podróżowaniu tramwajem z aplikacja Ruter # :
+			{t("look_at_trikk")}
 			</h3>
 			<section>
 				<ul  className="listS">
-					<li className='tipsContentFirst'>Tramwaje w Oslo mają tendencje do częstego spóźniania się 	i jeśli mamy z nich kożystać lepiej mięć zapas czasu gdy są środkiem lokomocji pośredniczącym.</li>
+					<li className='tipsContentFirst'>{t("tip_5")}</li>
 					<br/>
-					<li className='tipsContentFirst'>Powtarzalnym problemem są znikające z tablicy odjazdów linie wraz z aplikacji Ruter po czym zwykle następuje opóźnienie kilku minutowe. </li>
+					<li className='tipsContentFirst'>{t("tip_6")}</li>
 				</ul>
 			</section>
 			<section className="downloadS">
 				<h3 className='headindDownloadS'>
-				Rozkład lini tramwajów w obrębie Oslo
+				{t("tram_distribution")}
 				</h3>
 				    <img src='/public/mapy/image 18.jpg' className='mapa_lini_tramwajow'/>
 
             </section>
 			
 			<div className='specialD'>
-			<h3 className='headindSpecialD'>Sytuacje wyjątkowe:</h3>
+			<h3 className='headindSpecialD'>{t("emergency")}</h3>
 			<br/>
-			<p className='paragraphSpecialD'>W sytuacjach wyjątkowych takich jak ciągłe opóźnianie metra lub 	wstrzymanie ruchu na stacji jest zalecane śledzenie aplikacji 	“Ruter” oraz słuchanie komunikatów ze stacji. <br/>Kiedy ta 	sytuacja wpływa na nas w dotkliwy sposób np.Uniemożliwiony powrót do domu przez daną sytuacje I nie mamy możliwości innej 	jak ta , warto rozważyć zamówienie taksówki za którą “Ruter będzię zobligowany zapłacić za nią, po wysłaniu paragonu oraz opisaniu sytuacji”.</p>
+			<p className='paragraphSpecialD'>{t("emergency_facility")}</p>
 			</div>
 
-			<h2 className='headindSpecialDsecond'><strong>Mandat za nie posiadanie biletu wynosi 1237kr na miejscu, gdy opłata zostanie uiszczona jest w poźniejszym terminie wynosi 1437kr.</strong></h2>
+			<h2 className='headindSpecialDsecond'>{t("fine_info")}</h2>
 			<Footer/>
 		</div>
 	);

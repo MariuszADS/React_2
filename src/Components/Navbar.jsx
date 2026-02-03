@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../css/mobile_hamburger.css';
-// import { useTranslation } from 'i18n-js';
+import { useTranslation } from 'react-i18next';
 
 
 const NavbarFront = () => {
-  // const {t} = useTranslation()
+  const {t} = useTranslation()
 
   return (
     <nav className="top-nav">
@@ -15,8 +15,8 @@ const NavbarFront = () => {
       </label>
       <ul className="menu">
         <li><Link to="/">Oslo&nabo</Link></li>
-        <li><Link to="/wskazowki">Wskazówki i porady</Link></li>
-        <li><Link to="/miejsca">Miejsca warte uwagi</Link></li>
+        <li><Link to="/wskazowki">{t("wskazowki")}</Link></li>
+        <li><Link to="/miejsca">{t("miejsca")}</Link></li>
         <li><a href="https://ruter.no/" target="_blank" rel="noopener noreferrer">Ruter #</a></li>
       </ul>
     </nav>

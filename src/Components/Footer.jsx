@@ -34,12 +34,3 @@ export default function Footer() {
 		</div>
 	);
 }
-
-{/* <div className='categories'>
-	<div className='categories_column_rules'>
-		<ul>
-			<li className="li_00"></li>
-			<li className="li_00"></li>
-		</ul>
-	</div>
-</div> */}
