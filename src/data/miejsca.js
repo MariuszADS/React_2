@@ -1,6 +1,3 @@
-// import { title } from "process";
-// import bygdoy_00 from "../assets/img/zdjecia_miesjca/Bygdøy/bygdoy_00.JPG";
-// import bygdoy_01 from "../assets/img/zdjecia_miesjca/Bygdøy/bygdoy_01.JPG";
 import bygdoy_02 from "../assets/img/zdjecia_miesjca/Bygdøy/bygdoy_02.JPG";
 import bygdoy_03 from "../assets/img/zdjecia_miesjca/Bygdøy/bygdoy_museum_holocaust_00.JPG";
 import bygdoy_04 from "../assets/img/zdjecia_miesjca/Bygdøy/bygdoy_museum_holocaust_01.JPG";
@@ -60,20 +57,16 @@ import icon_T from "../assets/icons/icon_T.png";
 import icon_B from "../assets/icons/icon_B.png";
 import icon_TR from "../assets/icons/icon_TR.png";
 import icon_BÅ from "../assets/icons/icon_BÅ.png";
-import { useTranslation } from 'react-i18next';
 import pl from "../i18n/locales/pl.json"
+import { useTranslation } from 'react-i18next';
 
-
-
-export const miejsca= () => {
- const { t } = useTranslation()
-
-  return [
+export const miejsca = [
+  
   {
     title: "Ekebergparken",
     transportIcon: icon_TR,
     description: "Park z pięknymi rzeźbami i widokami na Oslo.Dojazd tramwajem linii 18 do przystanku Ekebergparken.",
-    descriptionKey:t("ekebergparken"),
+    key:"ekebergparken",
     images: [
       { src: ekebergparken_00, alt: "ekebergparken" },
       { src: ekebergparken_01, alt: "ekebergparken" },
@@ -173,6 +166,8 @@ export const miejsca= () => {
     transportIcon: icon_B,
     description: "Półwysep z muzeami i plażami. Dojazd autobusem linii 30 do przystanku Bygdøynes.",
     images: [
+      // { src: bygdoy_00, alt: "bygdoy" },
+      // { src: bygdoy_01, alt: "bygdoy" },
       { src: bygdoy_02, alt: "bygdoy" },
       { src: bygdoy_03, alt: "bygdoy" },
       { src: bygdoy_04, alt: "bygdoy" },
@@ -181,6 +176,4 @@ export const miejsca= () => {
   },
 
 ];
-
-} 
 
