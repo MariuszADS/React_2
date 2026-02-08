@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import '../css/mobile_hamburger.css';
 import { useTranslation } from 'react-i18next';
+import i18n from "../i18n/i18n";
 
 
 const NavbarFront = () => {
@@ -13,6 +14,11 @@ const NavbarFront = () => {
       <label className="menu-button-container" htmlFor="menu-toggle">
         <div className="menu-button"></div>
       </label>
+      <div className="lang-switch-nav" aria-label="Language switcher">
+        <button className="lang-button-nav" type="button" onClick={() => i18n.changeLanguage("pl")}>PL</button>
+        <button className="lang-button-nav" type="button" onClick={() => i18n.changeLanguage("en")}>EN</button>
+        <button className="lang-button-nav" type="button" onClick={() => i18n.changeLanguage("no")}>NO</button>
+      </div>
       <ul className="menu">
         <li><Link to="/">Oslo&nabo</Link></li>
         <li><Link to="/wskazowki">{t("wskazowki")}</Link></li>

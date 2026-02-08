@@ -19,10 +19,10 @@ export default function Footer() {
 							<li><a href="https://ruter.no/">Ruter</a></li>
 						</ul>
 					</div>
-					<div>
-						<button onClick={() => i18n.changeLanguage("pl")}>PL</button>
-						<button onClick={() => i18n.changeLanguage("en")}>EN</button>
-						<button onClick={() => i18n.changeLanguage("no")}>NO</button>
+					<div className="lang-switch-footer" aria-label="Language switcher">
+						<button className="lang-button-footer" type="button" onClick={() => i18n.changeLanguage("pl")}>PL</button>
+						<button className="lang-button-footer" type="button" onClick={() => i18n.changeLanguage("en")}>EN</button>
+						<button className="lang-button-footer" type="button" onClick={() => i18n.changeLanguage("no")}>NO</button>
 					</div>
 				</div>
 				<div className='resources_spans'>
