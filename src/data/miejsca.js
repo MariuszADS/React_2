@@ -57,16 +57,15 @@ import icon_T from "../assets/icons/icon_T.png";
 import icon_B from "../assets/icons/icon_B.png";
 import icon_TR from "../assets/icons/icon_TR.png";
 import icon_BÅ from "../assets/icons/icon_BÅ.png";
-import pl from "../i18n/locales/pl.json"
-import { useTranslation } from 'react-i18next';
 
 export const miejsca = [
   
   {
+    id:"0",
     title: "Ekebergparken",
     transportIcon: icon_TR,
     description: "Park z pięknymi rzeźbami i widokami na Oslo.Dojazd tramwajem linii 18 do przystanku Ekebergparken.",
-    key:"ekebergparken",
+    descriptionKey: "ekebergparken",
     images: [
       { src: ekebergparken_00, alt: "ekebergparken" },
       { src: ekebergparken_01, alt: "ekebergparken" },
@@ -81,6 +80,7 @@ export const miejsca = [
     title: "Frogner Park",
     transportIcon: icon_TR,
     description: "Znany z rzeźb Gustava Vigelanda, idealny na spacery i relaks. Dojazd tramwajem linii 12 do przystanku Vigelandsparken.",
+    descriptionKey: "frogner_park",
     images: [
       { src: frogner_00, alt: "frogner park" },
       { src: frogner_01, alt: "frogner park" },
@@ -96,6 +96,7 @@ export const miejsca = [
     title: "Sognsvann",
     transportIcon: icon_T,
     description: "Popularne miejsce do spacerów, biegania i pikników. Dojazd linią metra nr 5 do stacji Sognsvann, kierunek Sognsvann.",
+    descriptionKey: "sognsvann",
     images: [
       { src: sognsvann_00, alt: "sognsvann" },
       { src: sognsvann_01, alt: "sognsvann" },
@@ -109,6 +110,7 @@ export const miejsca = [
     title: "Holmenkollen",
     transportIcon: icon_T,
     description: "Skocznia narciarska z muzeum narciarstwa i panoramicznym widokiem na Oslo. Dojazd linią metra nr 1 do stacji Holmenkollen.",
+    descriptionKey: "holmenkollen",
     images: [
       { src: holmenkollen_00, alt: "holmenkollen" },
       { src: holmenkollen_01, alt: "holmenkollen" },
@@ -121,6 +123,7 @@ export const miejsca = [
     title: "Nordmarka",
     transportIcon: icon_T,
     description: "Rozległy obszar leśny idealny do pieszych wędrówek, jazdy na rowerze i narciarstwa biegowego. Dojazd linią metra nr 1 do stacji Frognerseteren.",
+    descriptionKey: "nordmarka",
     images: [
       { src: nordmarka_02, alt: "nordmarka" },
       { src: nordmarka_03, alt: "nordmarka" },
@@ -139,6 +142,7 @@ export const miejsca = [
     title: "Tryvann Vinterpark",
     transportIcon: icon_T,
     description: "Ośrodek narciarski z trasami zjazdowymi. Dojazd linią metra nr 1 do stacji Voksenkollen, a następnie autobusem wahadłowym. Znajdujący się tóż w pobliżu Tryvannstua.",
+    descriptionKey: "tryvann_vinterpark",
     images: [
       { src: trynn_00, alt: "Vinterpark" },
       { src: trynn_01, alt: "Vinterpark" },
@@ -150,8 +154,10 @@ export const miejsca = [
   },
   {
     title: "Wyspy Oslofjordu",
+    titleKey: "wyspy_oslofjord_title",
     transportIcon: icon_BÅ,
     description: "Miejsca do kąpieli i pikników. Promy linii 91–94 z Rådhusbrygge obsługiwane przez Oslo-Fergene.W dzielnicy Aker Brygge można znaleźć przystanek promowy.",
+    descriptionKey: "wyspy_oslofjord",
     images: [
       { src: oslo_island_00, alt: "oslo_island" },
       { src: oslo_island_02, alt: "oslo_island" },
@@ -165,6 +171,7 @@ export const miejsca = [
     title: "Bygdøy",
     transportIcon: icon_B,
     description: "Półwysep z muzeami i plażami. Dojazd autobusem linii 30 do przystanku Bygdøynes.",
+    descriptionKey: "bygdoy",
     images: [
       // { src: bygdoy_00, alt: "bygdoy" },
       // { src: bygdoy_01, alt: "bygdoy" },
