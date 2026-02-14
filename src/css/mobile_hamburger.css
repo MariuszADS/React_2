@@ -182,6 +182,13 @@
   }
 }
 
+@media (max-width: 576px) {
+  .lang-button-nav {
+    /* border-color: #00ff3c; */
+    border: solid;
+  }
+}
+
 
 .back-button {
   display: inline-flex;
