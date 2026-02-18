@@ -2,10 +2,9 @@
 
 ## Tech Stack
 * React
-* TypeScript
+* JavaScript 
 * Vite
 * CSS
-* Figma
 
 # Description
 - Oslo & nabo is a web application designed to support public transport navigation in the Oslo region and nearby counties.
@@ -18,6 +17,7 @@ The main goal of the project is to simplify complex stations, reduce confusion f
 ## Run locally
 `npm install`
 `npm run dev`
+
 
 
 
